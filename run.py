@@ -10,7 +10,7 @@ def intro():
                 """)
         print("""Option #3: Walk by foot, the slowest option
                 and you don't know what challenges you could face""")
-        round_one = input("Which will you you choose? (1, 2 or 3)")
+        round_one = input("$ Which will you you choose? (1, 2 or 3)  ")
         if round_one == "1":
                 print()
                 option1()
@@ -57,7 +57,7 @@ def option3():
         print("Option #1: Approach the bush to see what is there")
         print("Option #2: Hide behind the nearest tree")
         print("Option #3: Run as fast as you can")
-        round_two = input("Which will you you choose? (1, 2 or 3)")
+        round_two = input("$ Which will you you choose? (1, 2 or 3  )")
         if round_two == "1":
                 print()
                 option_1()
@@ -95,14 +95,14 @@ def option_1():
 
 # Hide behind the nearest tree HEEERREE FIX
 def option_2():
-        print("As you are hiding behind the tree, the rustling sound gets louder")
-        print("You hear a ROOOAAARRRRR")
-        print("What do you do next?")
-        print("Option #1: In the corner of your eye you spot a cave")
+        print("$ As you are hiding behind the tree, the rustling sound gets louder")
+        print("$ You hear a ROOOAAARRRRR")
+        print("$ What do you do next?")
+        print("Option #1: In the corner of your eye you spot a cave, run towards the cave")
         print("Option #2: Climb the tree")
         print("""Option #3: Throw a larger rock in a different direction hoping to distract 
         the Tiger, so you can make a run for it""")
-        round_three = input("Which will you you choose? (1, 2 or 3)")
+        round_three = input("$ Which will you you choose? (1, 2 or 3)  ")
         if round_three == "1":
                 print()
                 option_a()
@@ -119,11 +119,42 @@ def option_3():
 # IF OPTION TWO was chosen in Round three
 # In the corner of your eye you spot a cave
 def option_a():
-        print("HIII")
-
+        print("$ You have made it to the cave safely")
+        print("$ Legend has it the treasure is located in this cave")
+        print("$ But you must face some challenges to unlock it")
+        print("$ Let the challenges commence") 
+        guess_game()
 
 # Mini games
 # Guess the riddle
+def guess_game():
+        secret_word = "tea"
+        guess = ""
+        guess_count = 0
+        guess_limit = 3
+        out_of_guesses = False
+        print("You must face the challenges")
+        # ADD MORE TEXT HERE LATER ABOUT THE CHALLENGES
+        print("First I am dried, then I am wet. The longer I swim, the more taste you get.")
+        print("What am I?")
+        print("Hint: I am three letters long")
+#while guess != secret_word and not (out_of_guesses):
+#if guess_count < guess_limit:
+        #guess = input("Enter guess: ").lower()
+        #guess_count += 1
+#else:
+       # out_of_guesses = True
+
+#if out_of_guesses:
+    #print("Out of Guesses, YOU LOSE!")
+    #print("Go on, have another try")
+    #guessing_game()
+    
+#else:
+    #print("Well done, you got it right!")
+    #print("It's time for your next challenge")
+
+
 # Rock, Paper, Scissors
 
 
