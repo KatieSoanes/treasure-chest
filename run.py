@@ -22,7 +22,7 @@ def intro():
                 option3()
 
 
-# HERE is ROUND TWO:
+# HERE is ROUND TWO OF CHOICE FOR USER:
 # option1(): if option ONE was chosen in Round 1
 # Climb down the mountain face by rope
 def option1():
@@ -70,12 +70,13 @@ def option3():
 
 
 
+# ROUND THREE
+# IF OPTION 2 was chosen by user
+print("Add text here later!")
 
-
-# Round 3
-# ROUND THREE if option 2 was chosen in Round two
-
-# ROUND THREE if option 3 was chosen in Round two
+# ROUND THREE OF CHOICE 
+# IF OPTION THREE WAS CHOSEN BY USER IN ROUND TWO
+# Approach the bush to see what is there
 def option_1():
         print("You are very brave approcahing the bush")
         print("As you get closer, you see large paw prints in the ground")
@@ -92,14 +93,34 @@ def option_1():
                 print("$ See you next time!")
                 exit()
 
-
+# Hide behind the nearest tree HEEERREE FIX
 def option_2():
-        print("HII")
+        print("As you are hiding behind the tree, the rustling sound gets louder")
+        print("You hear a ROOOAAARRRRR")
+        print("What do you do next?")
+        print("Option #1: In the corner of your eye you spot a cave")
+        print("Option #2: Climb the tree")
+        print("""Option #3: Throw a larger rock in a different direction hoping to distract 
+        the Tiger, so you can make a run for it""")
+        round_three = input("Which will you you choose? (1, 2 or 3)")
+        if round_three == "1":
+                print()
+                option_a()
 
+
+# Run as fast as you can
 def option_3():
         print("Hey")
 
+
+
 # Round 4
+
+# IF OPTION TWO was chosen in Round three
+# In the corner of your eye you spot a cave
+def option_a():
+        print("HIII")
+
 
 # Mini games
 # Guess the riddle
