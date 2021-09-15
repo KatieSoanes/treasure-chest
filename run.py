@@ -1,4 +1,4 @@
-#Round 1
+# ROUND ONE OF CHOICE FOR USER
 def intro():
         print("$ You are now on top of Skull island mountain")
         print("$ You need to get to the base")
@@ -22,8 +22,8 @@ def intro():
                 option3()
 
 
-# HERE is Round 2 
-# option1(): if option one was chosen in Round 1
+# HERE is ROUND TWO:
+# option1(): if option ONE was chosen in Round 1
 def option1():
     print("$ You have chosen to descend the mountain by rope")
     print("$ As you are half way down the rope begins to break")
@@ -39,13 +39,30 @@ def option1():
     else:
         print("$ See you next time!")
         exit()
-# Option2(): if option two was chosen in Round 1
+
+# Option2(): if option TWO was chosen in Round 1
 def option2():
         print("hi")
 
-# Option3(): if option three was chosen in Round 1
+# Option3(): if option THREE was chosen in Round 1
 def option3():
-        print("THREE")
+        print("$ You have been walking by foot for almost one hour")
+        print("$ You hear a rustling in the bushes")
+        print("$ What do you do next?")
+        print("Option #1: Approach the bush to see what is there")
+        print("Option #2: Hide behind the nearest tree")
+        print("Option #3: Run as fast as you can")
+        round_two = input("Which will you you choose? (1, 2 or 3)")
+        if round_two == "1":
+                print()
+                option_1()
+        elif round_two == "2":
+                print()
+                option_2()
+        elif round_two == "3":
+                print()
+                option_3()
+
 
 
 
