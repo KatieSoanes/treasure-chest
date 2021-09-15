@@ -1,8 +1,8 @@
 #Round 1
 def intro():
-        print("You are now on top of Skull island mountain")
-        print("You need to get to the base")
-        print("Which option do you take?")
+        print("$ You are now on top of Skull island mountain")
+        print("$ You need to get to the base")
+        print("$ Which option do you take?")
         print("""Option #1: Climb down the mountain face by rope,
                 be careful, the rope appears old and brittle""")
         print("""Option #2: Make a raft and descend down by Mountain River, but you don't
@@ -23,6 +23,24 @@ def intro():
 
 
 # Round 2
+def option1():
+    print("$ You have chosen to descend the mountain by rope")
+    print("$ As you are half way down the rope begins to break")
+    print("$ Oh no, the rope has snapped")
+    print("$ You shouldn't have gone this way...")
+    print("")
+    print("**** GAME ****")
+    print("**** OVER ****")
+    print("")
+    restart = input("$ Do you wish to start again?  ").lower()
+    if restart == "yes":
+        main()
+    else:
+        print("$ See you next time!")
+        exit()
+
+
+
 
 # Round 3
 
