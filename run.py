@@ -1,6 +1,6 @@
 #Round 1
 def intro():
-    print()
+    print("HIII")
 
 # Round 2
 
@@ -37,3 +37,13 @@ print("$ The treasure contains gold, silver and jewels worth Millions!!")
 print("$ The map leads us to Skull island which is known")
 print("$ to be a formidable dangerous place")
 print("$ where not everyone returns...")
+print("So, do you have whay it takes to find the treasure?")
+startGame = input(" Yes/No: ").lower()
+if startGame == "no":
+        print("Oh no! Are you sure?")
+        print("Last chance to play....")
+        startGame = input("type yes").lower
+        startGame == "yes"
+        intro()
+elif startGame == "yes":
+        intro()
