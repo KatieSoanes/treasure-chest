@@ -24,6 +24,7 @@ def intro():
 
 # HERE is ROUND TWO:
 # option1(): if option ONE was chosen in Round 1
+# Climb down the mountain face by rope
 def option1():
     print("$ You have chosen to descend the mountain by rope")
     print("$ As you are half way down the rope begins to break")
@@ -40,11 +41,15 @@ def option1():
         print("$ See you next time!")
         exit()
 
+# ROUND TWO
 # Option2(): if option TWO was chosen in Round 1
+# Make a raft and descend down by Mountain River
 def option2():
         print("hi")
 
+# ROUND TWO
 # Option3(): if option THREE was chosen in Round 1
+# Walk by foot
 def option3():
         print("$ You have been walking by foot for almost one hour")
         print("$ You hear a rustling in the bushes")
@@ -68,6 +73,31 @@ def option3():
 
 
 # Round 3
+# ROUND THREE if option 2 was chosen in Round two
+
+# ROUND THREE if option 3 was chosen in Round two
+def option_1():
+        print("You are very brave approcahing the bush")
+        print("As you get closer, you see large paw prints in the ground")
+        print("An almighty ROAR makes the ground shake")
+        print("You see a Tiger jump out towards you...")
+        print("")
+        print("**** GAME ****")
+        print("**** OVER ****")
+        print("")
+        restart = input("$ Do you wish to start again?  ").lower()
+        if restart == "yes":
+                main()
+        else:
+                print("$ See you next time!")
+                exit()
+
+
+def option_2():
+        print("HII")
+
+def option_3():
+        print("Hey")
 
 # Round 4
 
