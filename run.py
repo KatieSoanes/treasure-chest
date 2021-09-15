@@ -22,7 +22,8 @@ def intro():
                 option3()
 
 
-# Round 2
+# HERE is Round 2 
+# option1(): if option one was chosen in Round 1
 def option1():
     print("$ You have chosen to descend the mountain by rope")
     print("$ As you are half way down the rope begins to break")
@@ -38,6 +39,13 @@ def option1():
     else:
         print("$ See you next time!")
         exit()
+# Option2(): if option two was chosen in Round 1
+def option2():
+        print("hi")
+
+# Option3(): if option three was chosen in Round 1
+def option3():
+        print("THREE")
 
 
 
