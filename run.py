@@ -12,4 +12,15 @@ def intro():
 # Guess the riddle
 # Rock, Paper, Scissors
 
-def main():
+#def main():
+# OPENING INTRODUCTORY TEXT firstttt
+# Asking user if they would like to play the game
+print(" ")
+print(" ")
+print("     **********************")
+print("     *        ***         *")
+print("     *  Treasure Chest    *")
+print("     *  by Katie Soanes   *")
+print("     **********************")
+print(" ")
+print(" ")
