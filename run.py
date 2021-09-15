@@ -40,11 +40,11 @@ def main():
         print("$ to be a formidable dangerous place")
         print("$ where not everyone returns...")
         print("So, do you have whay it takes to find the treasure?")
-        startGame = input(" Yes/No: ").lower()
+        startGame = input("$ Yes/No: ").lower()
         if startGame == "no":
-                print("Oh no! Are you sure?")
-                print("Last chance to play....")
-                startGame = input("type yes").lower
+                print("$ Oh no! Are you sure?")
+                print("$ Last chance to play....")
+                startGame = input("$ type yes").lower
                 startGame == "yes"
                 intro()
         elif startGame == "yes":
