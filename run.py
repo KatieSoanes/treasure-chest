@@ -142,8 +142,8 @@ def guess_game():
 #if guess_count < guess_limit:
         #guess = input("Enter guess: ").lower()
         #guess_count += 1
-#else:
-       # out_of_guesses = True
+##else:
+       #out_of_guesses = True
 
 #if out_of_guesses:
     #print("Out of Guesses, YOU LOSE!")
