@@ -196,10 +196,10 @@ def option_b():
         print("")
         restart = input("$ Do you wish to start again?  ").lower()
         if restart == "yes":
-          main()
+            main()
         else:
             print("$ See you next time!")
-           exit()
+        exit()
 
 # Round four
 # IF OPTION TWO was chosen in Round three
@@ -216,10 +216,10 @@ def option_c():
         print("")
         restart = input("$ Do you wish to start again?  ").lower()
         if restart == "yes":
-          main()
+            main()
         else:
             print("$ See you next time!")
-           exit()
+        exit()
 
 
 # OPENING INTRODUCTORY TEXT
