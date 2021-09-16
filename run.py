@@ -70,7 +70,7 @@ def option3():
 
 
 # ******** ROUND THREE OF CHOICE FOR USER *********
-# IF OPTION THREE WAS CHOSEN BY USER IN ROUND TWO
+# IF OPTION THREE WAS CHOSEN BY USER IN ROUND TWO: Reminder: RUN AS FAST AS YOU CAN
 # Option 1:
 # Approach the bush to see what is there
 def option_1():
@@ -89,7 +89,8 @@ def option_1():
                 print("$ See you next time!")
                 exit()
 
-# IF OPTION THREE WAS CHOSEN BY USER IN ROUND TWO
+# IF OPTION THREE WAS CHOSEN BY USER IN ROUND TWO: 
+# (Reminder continuation of: RUN AS FAST AS YOU CAN)
 # Option 2:
 # Hide behind the nearest tree
 def option_2():
@@ -112,7 +113,7 @@ def option_2():
                 option_c()
 
 
-# IF OPTION THREE WAS CHOSEN BY USER IN ROUND TWO
+# IF OPTION THREE WAS CHOSEN BY USER IN ROUND TWO: (Reminder: RUN AS FAST AS YOU CAN)
 # Option 3:
 # Run as fast as you can
 def option_3():
@@ -133,7 +134,7 @@ def option_3():
 
 
 
-# Round 4
+# ****** Round 4 ******
 
 # IF OPTION TWO was chosen in Round three
 # In the corner of your eye you spot a cave
@@ -155,9 +156,9 @@ def option_a():
         guess_count = 0
         guess_limit = 3
         out_of_guesses = False
-        print("First I am dried, then I am wet.")
-        print("The longer I swim, the more taste you get.")
-        print("What am I?")
+        print("$ First I am dried, then I am wet.")
+        print("$ The longer I swim, the more taste you get.")
+        print("$ What am I?")
 
         while guess != secret_word and not (out_of_guesses):
             if guess_count < guess_limit:
@@ -173,6 +174,19 @@ def option_a():
 
 
 # Rock, Paper, Scissors
+
+
+# Round four
+# IF OPTION TWO was chosen in Round three
+# In the corner of your eye you spot a cave
+
+def option_b():
+     print("HIII")
+
+# Round four
+# If option 3(C) was chosen in Rond 3
+def option_c(): 
+    print("hi")
 
 
 # OPENING INTRODUCTORY TEXT firstttt
