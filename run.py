@@ -1,4 +1,4 @@
-# ROUND ONE OF CHOICE FOR USER
+# ******* ROUND ONE ******** OF CHOICE FOR USER
 def intro():
         print("$ You are now on top of Skull island mountain")
         print("$ You need to get to the base")
@@ -22,7 +22,7 @@ def intro():
                 option3()
 
 
-# HERE is ROUND TWO OF CHOICE FOR USER:
+# ******** ROUND TWO ******** OF CHOICE FOR USER:
 # option1(): if option ONE was chosen in Round 1
 # Climb down the mountain face by rope
 def option1():
@@ -45,7 +45,7 @@ def option1():
 # Option2(): if option TWO was chosen in Round 1
 # Make a raft and descend down by Mountain River
 def option2():
-        print("hi")
+        print("hi") #MORE TO GO HERE
 
 # ROUND TWO
 # Option3(): if option THREE was chosen in Round 1
@@ -69,13 +69,9 @@ def option3():
                 option_3()
 
 
-
-# ROUND THREE
-# IF OPTION 2 was chosen by user
-print("Add text here later!")
-
-# ROUND THREE OF CHOICE 
+# ******** ROUND THREE OF CHOICE FOR USER *********
 # IF OPTION THREE WAS CHOSEN BY USER IN ROUND TWO
+# Option 1:
 # Approach the bush to see what is there
 def option_1():
         print("You are very brave approcahing the bush")
@@ -93,24 +89,47 @@ def option_1():
                 print("$ See you next time!")
                 exit()
 
-# Hide behind the nearest tree HEEERREE FIX
+# IF OPTION THREE WAS CHOSEN BY USER IN ROUND TWO
+# Option 2:
+# Hide behind the nearest tree
 def option_2():
         print("$ As you are hiding behind the tree, the rustling sound gets louder")
         print("$ You hear a ROOOAAARRRRR")
         print("$ What do you do next?")
         print("Option #1: In the corner of your eye you spot a cave, run towards the cave")
         print("Option #2: Climb the tree")
-        print("""Option #3: Throw a larger rock in a different direction hoping to distract 
+        print("""Option #3: Throw a large rock in a different direction hoping to distract 
         the Tiger, so you can make a run for it""")
         round_three = input("$ Which will you you choose? (1, 2 or 3)  ")
         if round_three == "1":
                 print()
                 option_a()
+        elif round_three == "2":
+                print()
+                option_b()
+        elif round_three == "3":
+                print()
+                option_c()
 
 
+# IF OPTION THREE WAS CHOSEN BY USER IN ROUND TWO
+# Option 3:
 # Run as fast as you can
 def option_3():
-        print("Hey")
+        print("$ You take a deep breath")
+        print("$ You start to make a run for it...")
+        print("$ But, OH NO! You trip and fall to the ground..")
+        print("$ The Tiger approaches....")
+        print("")
+        print("**** GAME ****")
+        print("**** OVER ****")
+        print("")
+        restart = input("$ Do you wish to start again?  ").lower()
+        if restart == "yes":
+          main()
+        else:
+            print("$ See you next time!")
+        exit()
 
 
 
