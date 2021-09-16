@@ -180,14 +180,46 @@ def option_a():
 
 
 # Round four
-
+# IF OPTION TWO was chosen in Round three
+# Reminder continuation of HIDE BEHIND TREE
+# Climb the tree
 def option_b():
-     print("HIII")
+        print("$ You begin to climb the tree..")
+        print("$ You decide to sit on a big branch near the top....")
+        print("The Tiger is at the base of the tree")
+        print("$ Oh no!...")
+        print(" you feel it begin to break")
+        print("All of a sudden the branch snaps and you fall towards the Tiger")
+        print("")
+        print("**** GAME ****")
+        print("**** OVER ****")
+        print("")
+        restart = input("$ Do you wish to start again?  ").lower()
+        if restart == "yes":
+          main()
+        else:
+            print("$ See you next time!")
+           exit()
 
 # Round four
-# If option 3(C) was chosen in Rond 3
+# IF OPTION TWO was chosen in Round three
+# Reminder continuation of HIDE BEHIND TREE
+# Throw rock to distract
 def option_c(): 
-    print("hi")
+        print("$ You pick up the rock")
+        print("$ You throw it as far as you can in the opposite direction")
+        print("You make a run for it")
+        print("But OH NO! The Tiger spots you and chases after you")
+        print("")
+        print("**** GAME ****")
+        print("**** OVER ****")
+        print("")
+        restart = input("$ Do you wish to start again?  ").lower()
+        if restart == "yes":
+          main()
+        else:
+            print("$ See you next time!")
+           exit()
 
 
 # OPENING INTRODUCTORY TEXT
