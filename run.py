@@ -120,9 +120,17 @@ def option_3():
 # In the corner of your eye you spot a cave
 def option_a():
         print("$ You have made it to the cave safely")
-        #print("$ Legend has it the treasure is located in this cave")
-        #print("$ But you must face some challenges to unlock it")
-        #print("$ Let the challenges commence") 
+        print("$ Legend has it the treasure is located in this cave")
+        print("$ But you must face some challenges to unlock it")
+        print("$ Let the challenges commence...") 
+        print("$ The first challenge is GUESS the riddle")
+        print("$ Good luck!")
+
+# Mini games
+# Guess the riddle
+# based on https://www.youtube.com/watch?v=B9ORjeQlPOA 
+# Building a guessing game youtube tutorial
+
         secret_word = "tea"
         guess = ""
         guess_count = 0
@@ -138,42 +146,11 @@ def option_a():
                 guess_count += 1
             else:
                 out_of_guesses = True
-                
+
         if out_of_guesses:
             print("Out of Guesses, YOU LOSE!")
         else:
-            print("You win!")     
-
-# Mini games
-# Guess the riddle
-# based on https://www.youtube.com/watch?v=B9ORjeQlPOA 
-# Building a guessing game youtube tutorial 
-#def guess_game():
-        #secret_word = "tea"
-        #guess = ""
-        #guess_count = 0
-        #guess_limit = 3
-        #out_of_guesses = False
-        #print("You must face the challenges")
-        # ADD MORE TEXT HERE LATER ABOUT THE CHALLENGES
-        #print("First I am dried, then I am wet. The longer I swim, the more taste you get.")
-        #print("What am I?")
-        #print("Hint: I am three letters long")
-#while guess != secret_word and not (out_of_guesses):
-#if guess_count < guess_limit:
-        #guess = input("Enter guess: ").lower()
-        #guess_count += 1
-##else:
-       #out_of_guesses = True
-
-#if out_of_guesses:
-    #print("Out of Guesses, YOU LOSE!")
-    #print("Go on, have another try")
-    #guessing_game()
-    
-#else:
-    #print("Well done, you got it right!")
-    #print("It's time for your next challenge")
+            print("You win!")  
 
 
 # Rock, Paper, Scissors
