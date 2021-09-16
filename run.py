@@ -126,7 +126,7 @@ def option_a():
         print("$ The first challenge is GUESS the riddle")
         print("$ Good luck!")
 
-# Mini games
+# Mini games to unlock the treasure:
 # Guess the riddle
 # based on https://www.youtube.com/watch?v=B9ORjeQlPOA 
 # Building a guessing game youtube tutorial
