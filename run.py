@@ -1,4 +1,5 @@
-# ******* ROUND ONE ******** OF CHOICE FOR USER
+# ******* ROUND ONE ******** 
+# ******OF CHOICE FOR USER*****
 def intro():
         print("$ You are now on top of Skull island mountain")
         print("$ You need to get to the base")
@@ -24,7 +25,7 @@ def intro():
 
 # ******** ROUND TWO ******** OF CHOICE FOR USER:
 # option1(): if option ONE was chosen in Round 1
-# Climb down the mountain face by rope
+# Reminder: Climb down the mountain face by rope
 def option1():
     print("$ You have chosen to descend the mountain by rope")
     print("$ As you are half way down the rope begins to break")
@@ -43,13 +44,13 @@ def option1():
 
 # ROUND TWO
 # Option2(): if option TWO was chosen in Round 1
-# Make a raft and descend down by Mountain River
+# Reminder: Make a raft and descend down by Mountain River
 def option2():
         print("hi") #MORE TO GO HERE
 
 # ROUND TWO
 # Option3(): if option THREE was chosen in Round 1
-# Walk by foot
+# Reminder: Walk by foot
 def option3():
         print("$ You have been walking by foot for almost one hour")
         print("$ You hear a rustling in the bushes")
@@ -70,7 +71,8 @@ def option3():
 
 
 # ******** ROUND THREE OF CHOICE FOR USER *********
-# IF OPTION THREE WAS CHOSEN BY USER IN ROUND TWO: Reminder: RUN AS FAST AS YOU CAN
+# IF OPTION THREE WAS CHOSEN BY USER IN ROUND TWO
+# (Reminder continuation of: WALK BY FOOT)
 # Option 1:
 # Approach the bush to see what is there
 def option_1():
@@ -89,8 +91,8 @@ def option_1():
                 print("$ See you next time!")
                 exit()
 
-# IF OPTION THREE WAS CHOSEN BY USER IN ROUND TWO: 
-# (Reminder continuation of: RUN AS FAST AS YOU CAN)
+# IF OPTION THREE WAS CHOSEN BY USER IN ROUND TWO
+# (Reminder continuation of: WALK BY FOOT)
 # Option 2:
 # Hide behind the nearest tree
 def option_2():
@@ -113,7 +115,8 @@ def option_2():
                 option_c()
 
 
-# IF OPTION THREE WAS CHOSEN BY USER IN ROUND TWO: (Reminder: RUN AS FAST AS YOU CAN)
+# IF OPTION THREE WAS CHOSEN BY USER IN ROUND TWO
+# (Reminder continutation of: WALK BY FOOT)
 # Option 3:
 # Run as fast as you can
 def option_3():
@@ -135,8 +138,8 @@ def option_3():
 
 
 # ****** Round 4 ******
-
 # IF OPTION TWO was chosen in Round three
+# Reminder continuation of HIDE BEHIND TREE
 # In the corner of your eye you spot a cave
 def option_a():
         print("$ You have made it to the cave safely")
@@ -177,8 +180,6 @@ def option_a():
 
 
 # Round four
-# IF OPTION TWO was chosen in Round three
-# In the corner of your eye you spot a cave
 
 def option_b():
      print("HIII")
@@ -189,7 +190,7 @@ def option_c():
     print("hi")
 
 
-# OPENING INTRODUCTORY TEXT firstttt
+# OPENING INTRODUCTORY TEXT
 # Asking user if they would like to play the game
 def main():
         print(" ")
