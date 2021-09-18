@@ -301,6 +301,14 @@ while computer_count < 3 and user_count < 3:
         
         print(f'Computer: {computer_count} - You: {user_count}')
         print()
+        if computer_count > user_count:
+                print("YOU LOSE")
+                print("OHH NO!!!!!!!")
+        elif user_count > computer_count:
+                print("You won, you beat the computer")
+                print("You have smashed TREASURE CHEST")
+                
+        
 
 # Round four
 # IF OPTION TWO was chosen in Round three
