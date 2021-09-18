@@ -44,9 +44,26 @@ def option1():
 
 # ROUND TWO
 # Option2(): if option TWO was chosen in Round 1
-# Reminder: Make a raft and descend down by Mountain River
+# Reminder continuation of: Make a raft and descend down by Mountain River
 def option2():
-        print("hi") #MORE TO GO HERE
+        print("You are in the raft travelling downstream")
+        print("Suddenly, the stream splits into two directions")
+        print("Option #1: Do you go left? ")
+        print("Option #2: Do you go right? ")
+        direction = input("$ Which will you you choose? (1 or 2 )")
+        if direction == "1":
+            print()
+            turn_1()
+        elif direction == "2":
+            print()
+            turn_2()
+
+def turn_1():
+        print("Hi")
+def turn_2():
+        print("Hi")
+
+
 
 # ROUND TWO
 # Option3(): if option THREE was chosen in Round 1
