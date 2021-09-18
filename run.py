@@ -1,3 +1,8 @@
+import random
+# Import random is for the rock, paper, scissors game
+
+
+
 # ******* ROUND ONE ******** 
 # ******OF CHOICE FOR USER*****
 def intro():
@@ -111,7 +116,7 @@ def down_1():
     print("You are under the water at the bottom")
     print("You swim to the surface and take a gasp for air")
     print("You swim to the land")
-    
+
 
 # Jump and grab gold of branch
 def jump_2():
@@ -251,10 +256,51 @@ def option_a():
             print("Out of Guesses, YOU LOSE!")
         else:
             print("You win!")  
+            rock_game()
 
 
-# Rock, Paper, Scissors
+# Rock, Paper, Scissors Game
+# based on overstackflow code 
+# https://stackoverflow.com/questions/13126510/python-rock-paper-scissors-score-counter/13126598#13126598
 
+def rock_game():
+        print("Instructions for Rock-Paper-Scissors : ")
+        print()
+        print("Rock crushes Scissors")
+        print("Scissors cuts Paper")
+        print("Paper covers Rock")
+        print("First to reach THREE wins!")
+
+computer_count = 0
+user_count = 0 
+
+while computer_count < 3 and user_count < 3:
+        moves = ["rock", "paper", "rock"]
+        computer_choice = random.choice(moves)
+        print("(rock, paper, scissors)")
+        user_choice = input("Type your choice: ").strip().lower()
+        print()
+        computer_wins = "The computer won this round!"
+        you_win = "You won this round!"
+        print(f'You played {user_choice},the computer played {computer_choice}')
+        if user_choice == "scissors" and computer_choice == "rock" or \
+           user_choice == "paper" and computer_choice == "scissors" or \
+           user_choice == "rock" and computer_choice == "paper":
+            print(computer_wins)
+            computer_count += 1
+        elif user_choice == "rock" and computer_choice == "scissors" or \
+            user_choice == "scissors" and computer_choice == "paper" or \
+                user_choice == "paper" and computer_choice == "rock":
+            print(you_win)
+            user_count += 1
+        else:
+            if user_choice == computer_choice:
+                print("Its a draw!")
+                computer_count += 1
+                user_count += 1
+        
+        print(f'Computer: {computer_count} - You: {user_count}')
+        print()
 
 # Round four
 # IF OPTION TWO was chosen in Round three
