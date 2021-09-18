@@ -25,7 +25,7 @@ def intro():
 
 # ******** ROUND TWO ******** OF CHOICE FOR USER:
 # option1(): if option ONE was chosen in Round 1
-# Reminder: Climb down the mountain face by rope
+# Reminder continuation of: Climb down the mountain face by rope
 def option1():
     print("$ You have chosen to descend the mountain by rope")
     print("$ As you are half way down the rope begins to break")
@@ -59,7 +59,22 @@ def option2():
             turn_2()
 
 def turn_1():
-        print("Hi")
+        print("You decided to take the left turn")
+        print("The current is getting faster and faster.....")
+        print("You see a drop in the distance...")
+        print("At the bottom of the drop there are...")
+        print("tonnes of large sharp rocks!!!")
+        print("OH NO!!!! you shouldn't have gone this way")
+        print("**** GAME ****")
+        print("**** OVER ****")
+        print("")
+        restart = input("$ Do you wish to start again?  ").lower()
+        if restart == "yes":
+            main()
+        else:
+            print("$ See you next time!")
+        exit()
+
 def turn_2():
         print("Hi")
 
@@ -67,7 +82,7 @@ def turn_2():
 
 # ROUND TWO
 # Option3(): if option THREE was chosen in Round 1
-# Reminder: Walk by foot
+# Reminder continuation of: Walk by foot
 def option3():
         print("$ You have been walking by foot for almost one hour")
         print("$ You hear a rustling in the bushes")
