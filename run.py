@@ -58,6 +58,7 @@ def option2():
             print()
             turn_2()
 
+#Left turn
 def turn_1():
         print("You decided to take the left turn")
         print("The current is getting faster and faster.....")
@@ -75,8 +76,26 @@ def turn_1():
             print("$ See you next time!")
         exit()
 
+#Right turn
 def turn_2():
-        print("Hi")
+        print("$ You have taken the turn to the right")
+        print("$ The current begins to pick up speed")
+        print("$ All of a sudden you see in the distance...")
+        print("$ a Waterfall drop...")
+        print("$ You see a branch hanging over the water")
+        print("$ Option #1:Take your chances and go down the Waterfall ")
+        print("""Option #2: Jump to grab hold of the branch
+        when you get close enough """)
+        print("""$ Option #3: Try to turn your raft around and 
+        go against the current""")
+        direction = input("$ Which will you you choose? (1 or 2 )")
+        if direction == "1":
+            print()
+            turn_1()
+        elif direction == "2":
+            print()
+            turn_2()
+
 
 
 
