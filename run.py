@@ -82,19 +82,45 @@ def turn_2():
         print("$ The current begins to pick up speed")
         print("$ All of a sudden you see in the distance...")
         print("$ a Waterfall drop...")
-        print("$ You see a branch hanging over the water")
+        print("$ You also see a branch hanging over the water")
         print("$ Option #1:Take your chances and go down the Waterfall ")
         print("""Option #2: Jump to grab hold of the branch
         when you get close enough """)
         print("""$ Option #3: Try to turn your raft around and 
         go against the current""")
-        direction = input("$ Which will you you choose? (1 or 2 )")
-        if direction == "1":
+        choice = input("$ Which will you you choose? (1, 2 or 3 )")
+        if choice == "1":
             print()
-            turn_1()
-        elif direction == "2":
+            down_1()
+        elif choice == "2":
             print()
-            turn_2()
+            jump_2()
+        elif choice == "3":
+            print()
+            turn_around_3()
+
+# ******Roud Three*******
+# Conintuation of Option 2 if turn RIGHT was chosen in round 2 
+#Go down Waterfall
+def down_1():
+    print("You are brave and decide to go down the Waterfall")
+    print("As you hold on to the raft with a tight grip")
+    print("The current begins to get faster and faster...")
+    print("You approach the edge")
+    print("BOOM!!!")
+    print("You are under the water at the bottom")
+    print("You swim to the surface and take a gasp for air")
+    print("You swim to the land")
+    
+
+# Jump and grab gold of branch
+def jump_2():
+    print("Hello")
+
+# Turn the raft around
+def turn_around_3():
+        print("Yo")
+
 
 
 
