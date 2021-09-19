@@ -12,12 +12,12 @@ def intro():
     time.sleep(2)
     print("$ Which option do you take?")
     time.sleep(2)
-    print("""Option #1: Climb down the mountain face by rope,
+    print("""$ Option #1: Climb down the mountain face by rope,
                 be careful, the rope appears old and brittle""")
-    print("""Option #2: Make a raft and descend by Mountain River, but you don't
+    print("""$ Option #2: Make a raft and descend by Mountain River, but you don't
                 know how shallow and rocky it is"
                 """)
-    print("""Option #3: Walk by foot, the slowest option
+    print("""$ Option #3: Walk by foot, the slowest option
                 and you don't know what challenges you could face""")
     round_one = input("$ Which will you choose? (1, 2 or 3) ")
     if round_one == "1":
@@ -65,8 +65,8 @@ def option2():
         time.sleep(2)
         print("$ Suddenly, the stream splits into two directions")
         time.sleep(2)
-        print("Option #1: Do you go left? ")
-        print("Option #2: Do you go right? ")
+        print("$ Option #1: Do you go left? ")
+        print("$ Option #2: Do you go right? ")
         direction = input("$ Which will you choose? (1 or 2) ")
         if direction == "1":
             print()
@@ -160,9 +160,9 @@ def down_1():
     time.sleep(2)
     print("$ You realise he is asleep beside the treasure chest")
     time.sleep(2)
-    print("""Option #1: Do you approach the Oger and
+    print("""$ Option #1: Do you approach the Oger and
          fight for the treasure? """)
-    print("""Option #2: Do you stake out the area and wait
+    print("""$ Option #2: Do you stake out the area and wait
          for the Oger to leave?""")
     choice = input("$ Which will you choose? (1 or 2) ")
     if choice == "1":
@@ -171,6 +171,7 @@ def down_1():
     elif choice == "2":
         print()
         stakeout_2()
+
 
 def fight_1():
 
@@ -295,9 +296,9 @@ def option3():
     time.sleep(2)
     print("$ What do you do next?")
     time.sleep(2)
-    print("Option #1: Approach the bush to see what is there")
-    print("Option #2: Hide behind the nearest tree")
-    print("Option #3: Run as fast as you can")
+    print("$ Option #1: Approach the bush to see what is there")
+    print("$ Option #2: Hide behind the nearest tree")
+    print("$ Option #3: Run as fast as you can")
     round_two = input("$ Which will you choose? (1, 2 or 3) ")
     if round_two == "1":
         print()
@@ -316,13 +317,13 @@ def option3():
 # Option 1:
 # Approach the bush to see what is there
 def option_1():
-        print("You are very brave approcahing the bush")
+        print("$ You are very brave approcahing the bush")
         time.sleep(2)
-        print("As you get closer, you see large paw prints in the ground")
+        print("$ As you get closer, you see large paw prints in the ground")
         time.sleep(2)
-        print("An almighty ROAR makes the ground shake")
+        print("$ An almighty ROAR makes the ground shake")
         time.sleep(2)
-        print("You see a Tiger jump out towards you...")
+        print("$ You see a Tiger jump out towards you...")
         time.sleep(2)
         print("")
         print("**** GAME ****")
@@ -351,10 +352,10 @@ def option_2():
     time.sleep(2)
     print("$ What do you do next?")
     time.sleep(2)
-    print("""Option #1: In the corner of your eye you spot a cave,
+    print("""$ Option #1: In the corner of your eye you spot a cave,
           you run towards the cave to take shelter""")
-    print("Option #2: Climb the tree")
-    print("""Option #3: Throw a large rock in a different direction hoping to distract
+    print("$ Option #2: Climb the tree")
+    print("""$ Option #3: Throw a large rock in a different direction hoping to distract
         the Tiger, so you can make a run for it""")
     round_three = input("$ Which will you choose? (1, 2 or 3)  ")
     if round_three == "1":
@@ -434,9 +435,10 @@ def option_a():
                 out_of_guesses = True
 
         if out_of_guesses:
-            print("Out of Guesses, YOU LOSE!")
+            print("$ Out of Guesses, YOU LOSE!")
         else:
-            print("You win!")
+            print("")
+            print("$ You win! Time for your next challenge...")
             rock_game()
 
 # Rock, Paper, Scissors Game
@@ -446,16 +448,16 @@ def option_a():
 
 def rock_game():
 
-    print("Instructions for Rock-Paper-Scissors : ")
+    print("$ Instructions for Rock-Paper-Scissors : ")
     time.sleep(2)
     print()
-    print("Rock crushes Scissors")
+    print("$ Rock crushes Scissors")
     time.sleep(1)
-    print("Scissors cuts Paper")
+    print("$ Scissors cuts Paper")
     time.sleep(1)
-    print("Paper covers Rock")
+    print("$ Paper covers Rock")
     time.sleep(1)
-    print("Best out of THREE!")
+    print("$ Best out of THREE!")
     computer_count = 0
     user_count = 0
     while computer_count < 3 and user_count < 3:
@@ -466,7 +468,7 @@ def rock_game():
         print()
         computer_wins = "The computer won this round!"
         you_win = "You won this round!"
-        print(f'You played {user_choice},the computer played {computer_choice}')
+        print(f'You played {user_choice}, Computer played {computer_choice}')
         if user_choice == "scissors" and computer_choice == "rock" or \
             user_choice == "paper" and computer_choice == "scissors" or \
                 user_choice == "rock" and computer_choice == "paper":
@@ -504,6 +506,7 @@ def rock_game():
 # Reminder continuation of HIDE BEHIND TREE
 # Climb the tree
 
+
 def option_b():
 
     print("$ You begin to climb the tree..")
@@ -514,9 +517,9 @@ def option_b():
     time.sleep(2)
     print("$ Oh no!...")
     time.sleep(2)
-    print(" you feel it begin to break")
+    print("$ you feel it begin to break")
     time.sleep(2)
-    print("All of a sudden the branch snaps and you fall towards the Tiger")
+    print("$ All of a sudden the branch snaps and you fall towards the Tiger")
     time.sleep(2)
     print("")
     print("**** GAME ****")
@@ -541,9 +544,9 @@ def option_c():
     time.sleep(2)
     print("$ You throw it as far as you can in the opposite direction")
     time.sleep(2)
-    print("You make a run for it")
+    print("$ You make a run for it")
     time.sleep(2)
-    print("But OH NO! The Tiger spots you and chases after you")
+    print("$ But OH NO! The Tiger spots you and chases after you")
     time.sleep(2)
     print("")
     print("**** GAME ****")
