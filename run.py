@@ -331,16 +331,15 @@ def option_a():
 # based on overstackflow code 
 # https://stackoverflow.com/questions/13126510/python-rock-paper-scissors-score-counter/13126598#13126598
 def rock_game():
-        print("Instructions for Rock-Paper-Scissors : ")
-        print()
-        print("Rock crushes Scissors")
-        print("Scissors cuts Paper")
-        print("Paper covers Rock")
-        print("First to reach THREE wins!")
-computer_count = 0
-user_count = 0 
-
-while computer_count < 3 and user_count < 3:
+    print("Instructions for Rock-Paper-Scissors : ")
+    print()
+    print("Rock crushes Scissors")
+    print("Scissors cuts Paper")
+    print("Paper covers Rock")
+    print("First to reach THREE wins!")
+    computer_count = 0
+    user_count = 0 
+    while computer_count < 3 and user_count < 3:
         moves = ["rock", "paper", "rock"]
         computer_choice = random.choice(moves)
         print("(rock, paper, scissors)")
@@ -350,12 +349,12 @@ while computer_count < 3 and user_count < 3:
         you_win = "You won this round!"
         print(f'You played {user_choice},the computer played {computer_choice}')
         if user_choice == "scissors" and computer_choice == "rock" or \
-           user_choice == "paper" and computer_choice == "scissors" or \
-           user_choice == "rock" and computer_choice == "paper":
+            user_choice == "paper" and computer_choice == "scissors" or \
+                user_choice == "rock" and computer_choice == "paper":
             print(computer_wins)
             computer_count += 1
         elif user_choice == "rock" and computer_choice == "scissors" or \
-            user_choice == "scissors" and computer_choice == "paper" or \
+                user_choice == "scissors" and computer_choice == "paper" or \
                 user_choice == "paper" and computer_choice == "rock":
             print(you_win)
             user_count += 1
@@ -365,8 +364,8 @@ while computer_count < 3 and user_count < 3:
                 computer_count += 1
                 user_count += 1
 
-        print(f'Computer: {computer_count} - You: {user_count}')
-        print()
+            print(f'Computer: {computer_count} - You: {user_count}')
+            print()
 
                 
 # Round four
@@ -415,34 +414,33 @@ def option_c():
 # OPENING INTRODUCTORY TEXT
 # Asking user if they would like to play the game
 def main():
-        print(" ")
-        print(" ")
-        print("     **********************")
-        print("     *        ***         *")
-        print("     *  Treasure Chest    *")
-        print("     *  by Katie Soanes   *")
-        print("     **********************")
-        print(" ")
-        print(" ")
-        name = input("Enter your name ")
-        print("$ Hello " + name + " welcome to TREASURE CHEST")
-        print("$ Treasure chest is an interactive adventure game!")
-        print("$ The game where YOU get to choose your own destiny...")
-        print("$ To play the game you must type in your answer")
-        print("$ followed by the enter key on your keyboard.")
-        print("$ Before we begin, let me tell you a story...")
-        print("$ Sometime long ago I stumbled upon a treasure map,")
-        print("$ belonging to my great-great-grandfather...")
-        print("$ The treasure contains gold, silver and jewels....")
-        print("worth Millions!!")
-        print("$ The map leads us to Skull island which is known")
-        print("$ to be a formidable dangerous place,")
-        print("$ where not everyone returns...")
-        print("So, do you have what it takes to find the treasure?")
-        startGame = input("$ Yes/No: ").lower()
-        if startGame == "no":
-                main()
-        elif startGame == "yes":
-                intro()
-
+    print(" ")
+    print(" ")
+    print("     **********************")
+    print("     *        ***         *")
+    print("     *  Treasure Chest    *")
+    print("     *  by Katie Soanes   *")
+    print("     **********************")
+    print(" ")
+    print(" ")
+    name = input("Enter your name ")
+    print("$ Hello " + name + " welcome to TREASURE CHEST")
+    print("$ Treasure chest is an interactive adventure game!")
+    print("$ The game where YOU get to choose your own destiny...")
+    print("$ To play the game you must type in your answer")
+    print("$ followed by the enter key on your keyboard.")
+    print("$ Before we begin, let me tell you a story...")
+    print("$ Sometime long ago I stumbled upon a treasure map,")
+    print("$ belonging to my great-great-grandfather...")
+    print("$ The treasure contains gold, silver and jewels....")
+    print("worth Millions!!")
+    print("$ The map leads us to Skull island which is known")
+    print("$ to be a formidable dangerous place,")
+    print("$ where not everyone returns...")
+    print("So, do you have what it takes to find the treasure?")
+    startGame = input("$ Yes/No: ").lower()
+    if startGame == "no":
+        main()
+    elif startGame == "yes":
+        intro()
 main()
