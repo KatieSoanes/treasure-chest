@@ -388,13 +388,14 @@ def rock_game():
                 computer_count += 1
                 user_count += 1
 
-            print(f'Computer: {computer_count} - You: {user_count}')
-            print()
-        if user_count > 1:
+        print(f'Computer: {computer_count} - You: {user_count}')
+        print()
+    # THIS CODE IS TO BE FIXED IF THERE IS A DRAW... TO KEEP PLAYING
+        if user_count > computer_count:
             print("YOU DID IT!!!!!")
             print("CONGRATULATIONS!!!! YOU WON TREASURE CHEST")
             exit()
-        elif computer_count > 1:
+        elif computer_count > user_count:
             print("Oh NO! Bad luck... ")
             print("You were so close to opening the treasure...")
             print("")
