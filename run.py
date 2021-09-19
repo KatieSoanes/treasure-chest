@@ -141,6 +141,25 @@ def down_1():
         print()
         stakeout_2()
 
+def fight_1():
+
+    print("As you prepare to approach the Oger")
+    print("You take a step back and accidentally break a branch")
+    print("The sound wakes the Oger")
+    print("The Oger lets out a loud grunt")
+    print("The Ogers footsteps make the ground shake")
+    print("You are spotted")
+    print("The Oger runs towards you with anger on his face")
+    print("**** GAME ****")
+    print("**** OVER ****")
+    print("")
+    restart = input("$ Do you wish to start again?  ").lower()
+    if restart == "yes":
+        main()
+    else:
+        print("$ See you next time!")
+        exit()
+
 
 def stakeout_2():
 
