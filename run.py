@@ -1,7 +1,8 @@
-import random
 # Import random is for the rock, paper, scissors game
+import random
 
-# ******* ROUND ONE ******** 
+
+# ******* ROUND ONE ********
 # ******OF CHOICE FOR USER*****
 def intro():
         print("$ You are now on top of Skull island mountain")
@@ -106,17 +107,65 @@ def turn_2():
 # Conintuation of Option 2 if turn RIGHT was chosen in round 2 
 #Go down Waterfall
 def down_1():
-    print("You are brave and decide to go down the Waterfall")
-    print("As you hold on to the raft with a tight grip")
-    print("The current begins to get faster and faster...")
-    print("You approach the edge")
-    print("BOOM!!!")
-    print("You are under the water at the bottom")
-    print("You swim to the surface and take a gasp for air")
-    print("You swim to the land")
+        print("You are brave and decide to go down the Waterfall")
+        print("As you hold on to the raft with a tight grip")
+        print("The current begins to get faster and faster...")
+        print("You approach the edge")
+        print("BOOM!!!")
+        print("You are under the water at the bottom")
+        print("You swim to the surface and take a gasp for air")
+        print("You manage to swim to the land")
+        print("You see a giant oger in the distance")
+        print("You realise he is asleep beside the treasure chest")
+        print("""$ Option #1: Do you approach the Oger and 
+         fight for the treasure? """)
+        print("""Option #2: Do you stakeout the area and wait 
+         for the Oger to leave?""")
+        choice = input("$ Which will you you choose? (1 or 2 )")
+        if choice == "1":
+            print()
+            fight_1()
+        elif choice == "2":
+            print()
+            stakeout_2()
+
+def stakeout_2():
+        print("You hide behinf a bush and wait for the Oger to leave")
+        print("""3 hours later you feel the ground shake as the 
+        Oger makes his way towards the cave in the distance
+        """)
+        print("Once you can no longer see the Oger in the distance")
+        print("You run to the treasure chest")
+        print("Congratulations, you found the treaure...")
+        print("In order to open the box you must first face two challenges")
+        print("Let the challenges commence...")
+        secret_word = "secret"
+        guess = ""
+        guess_count = 0
+        guess_limit = 3
+        out_of_guesses = False
+        print("$ If you’ve got me, you want to share me; ")
+        print("$ if you share me, you haven’t kept me.")
+        print("$ What am I?")
+        print("$ HINT: I am 6 letters long")
+        print("$ A _ _ _ _ _ _")
+
+        while guess != secret_word and not (out_of_guesses):
+            if guess_count < guess_limit:
+                guess = input("Enter guess: ").lower()
+                guess_count += 1
+            else:
+                out_of_guesses = True
+
+        if out_of_guesses:
+            print("Out of Guesses, YOU LOSE!")
+        else:
+            print("You win!")
+        #HERE ROCK PAPER SCISSORS GAME LINK TO ADD 
+            
 
 
-# Jump and grab gold of branch
+# Jump and grab hold of branch
 def jump_2():
     print("You reach up to grab the branch")
     print("You try your best to hold on, but you begin to lose grip")
