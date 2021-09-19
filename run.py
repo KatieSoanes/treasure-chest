@@ -88,7 +88,7 @@ def turn_2():
         print("$ You also see a branch hanging over the water")
         print("$ Option #1:Take your chances and go down the Waterfall ")
         print("""Option #2: Jump to grab hold of the branch
-        when you get close enough """)
+         when you get close enough """)
         print("""$ Option #3: Try to turn your raft around and 
         go against the current""")
         choice = input("$ Which will you you choose? (1, 2 or 3 )")
@@ -118,14 +118,35 @@ def down_1():
 
 # Jump and grab gold of branch
 def jump_2():
-    print("Hello")
+    print("You reach up to grab the branch")
+    print("You try your best to hold on, but you begin to lose grip")
+    print("Your fingers begin to slip")
+    print("You can't hold on for much longer")
+    print("You fall into the current and BANG you hit a rock")
+    print("**** GAME ****")
+    print("**** OVER ****")
+    print("")
+    restart = input("$ Do you wish to start again?  ").lower()
+    if restart == "yes":
+        main()
+    else:
+        print("$ See you next time!")
+        exit()
 
 # Turn the raft around
 def turn_around_3():
-        print("Yo")
-
-
-
+    print("Unfortunately, the current is too strong")
+    print("There is nothing you can do")
+    print("You are being dragged in the wrong direction")
+    print("**** GAME ****")
+    print("**** OVER ****")
+    print("")
+    restart = input("$ Do you wish to start again?  ").lower()
+    if restart == "yes":
+        main()
+    else:
+        print("$ See you next time!")
+        exit()
 
 
 # ROUND TWO
