@@ -1,8 +1,6 @@
 import random
 # Import random is for the rock, paper, scissors game
 
-
-
 # ******* ROUND ONE ******** 
 # ******OF CHOICE FOR USER*****
 def intro():
@@ -258,11 +256,9 @@ def option_a():
             print("You win!")  
             rock_game()
 
-
 # Rock, Paper, Scissors Game
 # based on overstackflow code 
 # https://stackoverflow.com/questions/13126510/python-rock-paper-scissors-score-counter/13126598#13126598
-
 def rock_game():
         print("Instructions for Rock-Paper-Scissors : ")
         print()
@@ -270,7 +266,6 @@ def rock_game():
         print("Scissors cuts Paper")
         print("Paper covers Rock")
         print("First to reach THREE wins!")
-
 computer_count = 0
 user_count = 0 
 
@@ -298,18 +293,11 @@ while computer_count < 3 and user_count < 3:
                 print("Its a draw!")
                 computer_count += 1
                 user_count += 1
-        
+
         print(f'Computer: {computer_count} - You: {user_count}')
         print()
-        if computer_count > user_count:
-                print("YOU LOSE")
-                print("OHH NO!!!!!!!")
-        elif user_count > computer_count:
-                print("You won, you beat the computer")
-                print("You have smashed TREASURE CHEST")
-                
-        
 
+                
 # Round four
 # IF OPTION TWO was chosen in Round three
 # Reminder continuation of HIDE BEHIND TREE
@@ -379,7 +367,7 @@ def main():
         print("$ The map leads us to Skull island which is known")
         print("$ to be a formidable dangerous place,")
         print("$ where not everyone returns...")
-        print("So, do you have whay it takes to find the treasure?")
+        print("So, do you have what it takes to find the treasure?")
         startGame = input("$ Yes/No: ").lower()
         if startGame == "no":
                 main()
