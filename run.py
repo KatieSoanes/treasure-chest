@@ -589,7 +589,7 @@ def main():
     time.sleep(2)
     print("$ The treasure contains gold, silver and jewels....")
     time.sleep(2)
-    print("worth Millions!!")
+    print("  worth Millions!!")
     time.sleep(2)
     print("$ The map leads us to Skull island which is known")
     time.sleep(2)
