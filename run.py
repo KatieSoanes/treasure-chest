@@ -10,12 +10,12 @@ def intro():
         print("$ Which option do you take?")
         print("""Option #1: Climb down the mountain face by rope,
                 be careful, the rope appears old and brittle""")
-        print("""Option #2: Make a raft and descend down by Mountain River, but you don't
+        print("""Option #2: Make a raft and descend by Mountain River, but you don't
                 know how shallow and rocky it is"
                 """)
         print("""Option #3: Walk by foot, the slowest option
                 and you don't know what challenges you could face""")
-        round_one = input("$ Which will you you choose? (1, 2 or 3)  ")
+        round_one = input("$ Which will you choose? (1, 2 or 3) ")
         if round_one == "1":
                 print()
                 option1()
@@ -50,11 +50,11 @@ def option1():
 # Option2(): if option TWO was chosen in Round 1
 # Reminder continuation of: Make a raft and descend down by Mountain River
 def option2():
-        print("You are in the raft travelling downstream")
-        print("Suddenly, the stream splits into two directions")
+        print("$ You are in the raft travelling downstream")
+        print("$ Suddenly, the stream splits into two directions")
         print("Option #1: Do you go left? ")
         print("Option #2: Do you go right? ")
-        direction = input("$ Which will you you choose? (1 or 2 )")
+        direction = input("$ Which will you choose? (1 or 2) ")
         if direction == "1":
             print()
             turn_1()
@@ -64,12 +64,12 @@ def option2():
 
 #Left turn
 def turn_1():
-        print("You decided to take the left turn")
-        print("The current is getting faster and faster.....")
-        print("You see a drop in the distance...")
-        print("At the bottom of the drop there are...")
-        print("tonnes of large sharp rocks!!!")
-        print("OH NO!!!! you shouldn't have gone this way")
+        print("$ You decided to take the left turn")
+        print("$ The current is getting faster and faster.....")
+        print("$ You see a drop in the distance...")
+        print("$ At the bottom of the drop there are...")
+        print("$ tonnes of large sharp rocks!!!")
+        print("$ OH NO!!!! you shouldn't have gone this way")
         print("**** GAME ****")
         print("**** OVER ****")
         print("")
@@ -92,7 +92,7 @@ def turn_2():
          when you get close enough """)
         print("""$ Option #3: Try to turn your raft around and 
         go against the current""")
-        choice = input("$ Which will you you choose? (1, 2 or 3 )")
+        choice = input("$ Which will you choose? (1, 2 or 3) ")
         if choice == "1":
             print()
             down_1()
@@ -107,21 +107,21 @@ def turn_2():
 # Conintuation of Option 2 if turn RIGHT was chosen in round 2 
 #Go down Waterfall
 def down_1():
-        print("You are brave and decide to go down the Waterfall")
-        print("As you hold on to the raft with a tight grip")
-        print("The current begins to get faster and faster...")
-        print("You approach the edge")
-        print("BOOM!!!")
-        print("You are under the water at the bottom")
-        print("You swim to the surface and take a gasp for air")
-        print("You manage to swim to the land")
-        print("You see a giant oger in the distance")
-        print("You realise he is asleep beside the treasure chest")
-        print("""$ Option #1: Do you approach the Oger and 
+        print("$ You are brave and decide to go down the Waterfall")
+        print("$ As you hold on to the raft with a tight grip")
+        print("$ The current begins to get faster and faster...")
+        print("$ You approach the edge")
+        print("$ BOOM!!!")
+        print("$ You are under the water at the bottom")
+        print("$ You swim to the surface and take a gasp for air")
+        print("$ You manage to swim to the land")
+        print("$ You see a giant Oger in the distance")
+        print("$ You realise he is asleep beside the treasure chest")
+        print("""Option #1: Do you approach the Oger and 
          fight for the treasure? """)
-        print("""Option #2: Do you stakeout the area and wait 
+        print("""Option #2: Do you stake out the area and wait 
          for the Oger to leave?""")
-        choice = input("$ Which will you you choose? (1 or 2 )")
+        choice = input("$ Which will you choose? (1 or 2) ")
         if choice == "1":
             print()
             fight_1()
@@ -130,15 +130,15 @@ def down_1():
             stakeout_2()
 
 def stakeout_2():
-        print("You hide behinf a bush and wait for the Oger to leave")
-        print("""3 hours later you feel the ground shake as the 
+        print("$ You hide behind a bush and wait for the Oger to leave")
+        print("""$ 3 hours later you feel the ground shake as the 
         Oger makes his way towards the cave in the distance
         """)
-        print("Once you can no longer see the Oger in the distance")
-        print("You run to the treasure chest")
-        print("Congratulations, you found the treaure...")
-        print("In order to open the box you must first face two challenges")
-        print("Let the challenges commence...")
+        print("$ Once you can no longer see the Oger in the distance")
+        print("$ You run to the treasure chest")
+        print("$ Congratulations, you found the treaure...")
+        print("$ In order to open the box you must first face two challenges")
+        print("$ Let the challenges commence...")
         secret_word = "secret"
         guess = ""
         guess_count = 0
@@ -167,11 +167,11 @@ def stakeout_2():
 
 # Jump and grab hold of branch
 def jump_2():
-    print("You reach up to grab the branch")
-    print("You try your best to hold on, but you begin to lose grip")
-    print("Your fingers begin to slip")
-    print("You can't hold on for much longer")
-    print("You fall into the current and BANG you hit a rock")
+    print("$ You reach up to grab the branch")
+    print("$ You try your best to hold on, but you begin to lose grip")
+    print("$ Your fingers begin to slip")
+    print("$ You can't hold on for much longer")
+    print("$ You fall into the current and BANG you hit a rock")
     print("**** GAME ****")
     print("**** OVER ****")
     print("")
@@ -184,9 +184,9 @@ def jump_2():
 
 # Turn the raft around
 def turn_around_3():
-    print("Unfortunately, the current is too strong")
-    print("There is nothing you can do")
-    print("You are being dragged in the wrong direction")
+    print("$ Unfortunately, the current is too strong")
+    print("$ There is nothing you can do")
+    print("$ You are being taken in the wrong direction")
     print("**** GAME ****")
     print("**** OVER ****")
     print("")
@@ -208,7 +208,7 @@ def option3():
         print("Option #1: Approach the bush to see what is there")
         print("Option #2: Hide behind the nearest tree")
         print("Option #3: Run as fast as you can")
-        round_two = input("$ Which will you you choose? (1, 2 or 3  )")
+        round_two = input("$ Which will you choose? (1, 2 or 3) ")
         if round_two == "1":
                 print()
                 option_1()
@@ -249,11 +249,12 @@ def option_2():
         print("$ As you are hiding behind the tree, the rustling sound gets louder")
         print("$ You hear a ROOOAAARRRRR")
         print("$ What do you do next?")
-        print("Option #1: In the corner of your eye you spot a cave, run towards the cave")
+        print("""Option #1: In the corner of your eye you spot a cave, 
+          you run towards the cave to take shelter""")
         print("Option #2: Climb the tree")
         print("""Option #3: Throw a large rock in a different direction hoping to distract 
         the Tiger, so you can make a run for it""")
-        round_three = input("$ Which will you you choose? (1, 2 or 3)  ")
+        round_three = input("$ Which will you choose? (1, 2 or 3)  ")
         if round_three == "1":
                 print()
                 option_a()
