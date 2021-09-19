@@ -163,18 +163,16 @@ def stakeout_2():
     print("$ What am I?")
     print("$ HINT: I am 6 letters long")
     print("$ A _ _ _ _ _ _")
-
     while guess != secret_word and not (out_of_guesses):
         if guess_count < guess_limit:
             guess = input("Enter guess: ").lower()
             guess_count += 1
         else:
             out_of_guesses = True
-
-        if out_of_guesses:
-            print("Out of Guesses, YOU LOSE!")
-        else:
-            print("You win!")
+    if out_of_guesses:
+        print("Out of Guesses, YOU LOSE!")
+    else:
+        print("You win!")
         rock_game()
 
 
@@ -267,7 +265,8 @@ def option_1():
 
 def option_2():
 
-    print("$ As you are hiding behind the tree, the rustling sound gets louder")
+    print("$ As you are hiding behind the tree,")
+    print("the rustling sound gets louder")
     print("$ You hear a ROOOAAARRRRR")
     print("$ What do you do next?")
     print("""Option #1: In the corner of your eye you spot a cave,
@@ -277,14 +276,14 @@ def option_2():
         the Tiger, so you can make a run for it""")
     round_three = input("$ Which will you choose? (1, 2 or 3)  ")
     if round_three == "1":
-            print()
-            option_a()
+        print()
+        option_a()
     elif round_three == "2":
-            print()
-            option_b()
+        print()
+        option_b()
     elif round_three == "3":
-            print()
-            option_c()
+        print()
+        option_c()
 
 
 # IF OPTION THREE WAS CHOSEN BY USER IN ROUND TWO
@@ -315,33 +314,33 @@ def option_3():
 
 def option_a():
 
-    print("$ You have made it to the cave safely")
-    print("$ Legend has it the treasure is located in this cave")
-    print("$ But you must face some challenges to unlock it")
-    print("$ Let the challenges commence...")
-    print("$ The first challenge is GUESS the riddle")
-    print("$ Good luck!")
+        print("$ You have made it to the cave safely")
+        print("$ Legend has it the treasure is located in this cave")
+        print("$ But you must face some challenges to unlock it")
+        print("$ Let the challenges commence...")
+        print("$ The first challenge is GUESS the riddle")
+        print("$ Good luck!")
 
-# Mini games to unlock the treasure:
-# Guess the riddle
-# based on https://www.youtube.com/watch?v=B9ORjeQlPOA
-# Building a guessing game youtube tutorial
+        # Mini games to unlock the treasure:
+        # Guess the riddle
+        # based on https://www.youtube.com/watch?v=B9ORjeQlPOA
+        # Building a guessing game youtube tutorial
 
-    secret_word = "tea"
-    guess = ""
-    guess_count = 0
-    guess_limit = 3
-    out_of_guesses = False
-    print("$ First I am dried, then I am wet.")
-    print("$ The longer I swim, the more taste you get.")
-    print("$ What am I?")
+        secret_word = "tea"
+        guess = ""
+        guess_count = 0
+        guess_limit = 3
+        out_of_guesses = False
+        print("$ First I am dried, then I am wet.")
+        print("$ The longer I swim, the more taste you get.")
+        print("$ What am I?")
 
-    while guess != secret_word and not (out_of_guesses):
-        if guess_count < guess_limit:
-            guess = input("Enter guess: ").lower()
-            guess_count += 1
-        else:
-            out_of_guesses = True
+        while guess != secret_word and not (out_of_guesses):
+            if guess_count < guess_limit:
+                guess = input("Enter guess: ").lower()
+                guess_count += 1
+            else:
+                out_of_guesses = True
 
         if out_of_guesses:
             print("Out of Guesses, YOU LOSE!")
@@ -361,7 +360,7 @@ def rock_game():
     print("Rock crushes Scissors")
     print("Scissors cuts Paper")
     print("Paper covers Rock")
-    print("First to reach THREE wins!")
+    print("Best out of THREE!")
     computer_count = 0
     user_count = 0
     while computer_count < 3 and user_count < 3:
@@ -391,7 +390,18 @@ def rock_game():
 
             print(f'Computer: {computer_count} - You: {user_count}')
             print()
-
+        if user_count > 1:
+            print("YOU DID IT!!!!!")
+            print("CONGRATULATIONS!!!! YOU WON TREASURE CHEST")
+            exit()
+        elif computer_count > 1:
+            print("Oh NO! Bad luck... ")
+            print("You were so close to opening the treasure...")
+            print("")
+            print("**** GAME ****")
+            print("**** OVER ****")
+            print("")
+            exit()
 
 # Round four
 # IF OPTION TWO was chosen in Round three
