@@ -17,6 +17,10 @@ def intro():
     print("""$ Option #3: Walk by foot, the slowest option
                 and you don't know what challenges you could face""")
     round_one = input("$ Which will you choose? (1, 2 or 3) ")
+
+    while round_one != "1" and round_one != "2" and round_one != "3":
+        round_one = input("$ Invalid Input Error: Try again  ")
+
     if round_one == "1":
         print()
         option1()
@@ -26,6 +30,8 @@ def intro():
     elif round_one == "3":
         print()
         option3()
+    while round_one != "1" and round_one != "2" and round_one != "3":
+        round_one = input("Please answer: 1, 2 or 3")
 
 
 # ******** ROUND TWO ******** OF CHOICE FOR USER:
@@ -505,19 +511,16 @@ def main():
     print("$ The map leads us to Skull island which is known")
     print("$ to be a formidable dangerous place,")
     print("$ where not everyone returns...")
-    playGame()
-
-
-def playGame():
-
     print("So, do you have what it takes to find the treasure?")
     startGame = input("$ Yes/No: ").lower()
+
+    while startGame != "yes" and startGame != "no":
+        startGame = input("$ Invalid Input Error: Try again  ")
+
     if startGame == "no":
         main()
     elif startGame == "yes":
         intro()
-    else:
-        return playGame()
 
 
 main()
