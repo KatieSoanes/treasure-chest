@@ -436,15 +436,12 @@ def option_a():
 def rock_game():
 
     print("$ Instructions for Rock-Paper-Scissors : ")
-    time.sleep(2)
     print()
     print("$ Rock crushes Scissors")
-    time.sleep(1)
     print("$ Scissors cuts Paper")
-    time.sleep(1)
     print("$ Paper covers Rock")
-    time.sleep(1)
-    print("$ Best out of THREE!")
+    print("$ First to make it to TWO points wins!!!")
+    print("$ If you draw with the computer, no scores are given")
     computer_count = 0
     user_count = 0
     while computer_count < 3 and user_count < 3:
@@ -466,20 +463,15 @@ def rock_game():
                 user_choice == "paper" and computer_choice == "rock":
             print(you_win)
             user_count += 1
-        else:
-            if user_choice == computer_choice:
-                print("Its a draw!")
-                computer_count += 1
-                user_count += 1
 
         print(f'Computer: {computer_count} - You: {user_count}')
         print()
     # THIS CODE IS TO BE FIXED IF THERE IS A DRAW... TO KEEP PLAYING
-        if user_count > computer_count:
+        if user_count >= 2:
             print("YOU DID IT!!!!!")
             print("CONGRATULATIONS!!!! YOU WON TREASURE CHEST")
             exit()
-        elif computer_count > user_count:
+        elif computer_count >= 2:
             print("Oh NO! Bad luck... ")
             print("You were so close to opening the treasure...")
             print("")
