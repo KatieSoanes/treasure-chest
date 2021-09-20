@@ -30,8 +30,7 @@ def intro():
     elif round_one == "3":
         print()
         option3()
-    while round_one != "1" and round_one != "2" and round_one != "3":
-        round_one = input("Please answer: 1, 2 or 3")
+
 
 
 # ******** ROUND TWO ******** OF CHOICE FOR USER:
@@ -47,10 +46,14 @@ def option1():
     print("**** OVER ****")
     print("")
     restart = input("$ Do you wish to start again?  ").lower()
+
+    while restart != "yes" and restart != "no":
+        restart = input("$ Invalid Input Error: Try again  ")
+
     if restart == "yes":
         main()
-    else:
-        print("$ See you next time!")
+    elif restart == "no":
+        print("See you next time!!!")
         exit()
 
 # ROUND TWO
@@ -60,17 +63,21 @@ def option1():
 
 def option2():
 
-        print("$ You are in the raft travelling downstream")
-        print("$ Suddenly, the stream splits into two directions")
-        print("$ Option #1: Do you go left? ")
-        print("$ Option #2: Do you go right? ")
-        direction = input("$ Which will you choose? (1 or 2) ")
-        if direction == "1":
-            print()
-            turn_1()
-        elif direction == "2":
-            print()
-            turn_2()
+    print("$ You are in the raft travelling downstream")
+    print("$ Suddenly, the stream splits into two directions")
+    print("$ Option #1: Do you go left? ")
+    print("$ Option #2: Do you go right? ")
+    direction = input("$ Which will you choose? (1 or 2) ")
+
+    while direction != "1" and direction != "2":
+        direction = input("$ Invalid Input Error: Try again  ")
+
+    if direction == "1":
+        print()
+        turn_1()
+    elif direction == "2":
+        print()
+        turn_2()
 
 # Left turn
 
@@ -87,11 +94,16 @@ def turn_1():
     print("**** OVER ****")
     print("")
     restart = input("$ Do you wish to start again?  ").lower()
+
+    while restart != "yes" and restart != "no":
+        restart = input("$ Invalid Input Error: Try again  ")
+
     if restart == "yes":
         main()
-    else:
-        print("$ See you next time!")
+    elif restart == "no":
+        print("$ See you next time!!!")
         exit()
+
 
 # Right turn
 
@@ -109,6 +121,10 @@ def turn_2():
     print("""$ Option #3: Try to turn your raft around and
         go against the current""")
     choice = input("$ Which will you choose? (1, 2 or 3) ")
+
+    while choice != "1" and choice != "2" and choice != "3":
+        choice = input("$ Invalid Input Error: Try again  ")
+
     if choice == "1":
         print()
         down_1()
@@ -140,6 +156,10 @@ def down_1():
          fight for the treasure? """)
     print("""$ Option #2: Do you stake out the area and wait
          for the Oger to leave?""")
+
+    while round_one != "1" and round_one != "2":
+        round_one = input("$ Invalid Input Error: Try again  ")
+
     choice = input("$ Which will you choose? (1 or 2) ")
     if choice == "1":
         print()
@@ -162,10 +182,14 @@ def fight_1():
     print("**** OVER ****")
     print("")
     restart = input("$ Do you wish to start again?  ").lower()
+
+    while restart != "yes" and restart != "no":
+        restart = input("$ Invalid Input Error: Try again  ")
+
     if restart == "yes":
         main()
-    else:
-        print("$ See you next time!")
+    elif restart == "no":
+        print("$ See you next time!!!")
         exit()
 
 
@@ -216,10 +240,14 @@ def jump_2():
     print("**** OVER ****")
     print("")
     restart = input("$ Do you wish to start again?  ").lower()
+
+    while restart != "yes" and restart != "no":
+        restart = input("$ Invalid Input Error: Try again  ")
+
     if restart == "yes":
         main()
-    else:
-        print("$ See you next time!")
+    elif restart == "no":
+        print("$ See you next time!!!")
         exit()
 
 # Turn the raft around
@@ -234,12 +262,15 @@ def turn_around_3():
     print("**** OVER ****")
     print("")
     restart = input("$ Do you wish to start again?  ").lower()
+
+    while restart != "yes" and restart != "no":
+        restart = input("$ Invalid Input Error: Try again  ")
+
     if restart == "yes":
         main()
-    else:
-        print("$ See you next time!")
+    elif restart == "no":
+        print("$ See you next time!!!")
         exit()
-
 
 # ROUND TWO
 # Option3(): if option THREE was chosen in Round 1
@@ -252,6 +283,10 @@ def option3():
     print("$ Option #2: Hide behind the nearest tree")
     print("$ Option #3: Run as fast as you can")
     round_two = input("$ Which will you choose? (1, 2 or 3) ")
+
+    while round_two != "1" and round_two != "2" and round_two != "3":
+        round_two = input("$ Invalid Input Error: Try again  ")
+
     if round_two == "1":
         print()
         option_1()
@@ -278,11 +313,15 @@ def option_1():
         print("**** OVER ****")
         print("")
         restart = input("$ Do you wish to start again?  ").lower()
-        if restart == "yes":
-            main()
-        else:
-            print("$ See you next time!")
-            exit()
+
+    while restart != "yes" and restart != "no":
+        restart = input("$ Invalid Input Error: Try again  ")
+
+    if restart == "yes":
+        main()
+    elif restart == "no":
+        print("$ See you next time!!!")
+        exit()
 
 # IF OPTION THREE WAS CHOSEN BY USER IN ROUND TWO
 # (Reminder continuation of: WALK BY FOOT)
@@ -302,6 +341,10 @@ def option_2():
     print("""$ Option #3: Throw a large rock in a different direction hoping to distract
         the Tiger, so you can make a run for it""")
     round_three = input("$ Which will you choose? (1, 2 or 3)  ")
+
+    while round_three != "1" and round_three != "2" and round_three != "3":
+        round_one = input("$ Invalid Input Error: Try again  ")
+
     if round_three == "1":
         print()
         option_a()
@@ -327,12 +370,15 @@ def option_3():
     print("**** OVER ****")
     print("")
     restart = input("$ Do you wish to start again?  ").lower()
+
+    while restart != "yes" and restart != "no":
+        restart = input("$ Invalid Input Error: Try again  ")
+
     if restart == "yes":
         main()
-    else:
-        print("$ See you next time!")
+    elif restart == "no":
+        print("$ See you next time!!!")
         exit()
-
 
 # ****** Round 4 ******
 # IF OPTION TWO was chosen in Round three
@@ -455,11 +501,15 @@ def option_b():
     print("**** OVER ****")
     print("")
     restart = input("$ Do you wish to start again?  ").lower()
+
+    while restart != "yes" and restart != "no":
+        restart = input("$ Invalid Input Error: Try again  ")
+
     if restart == "yes":
         main()
-    else:
-        print("$ See you next time!")
-    exit()
+    elif restart == "no":
+        print("$ See you next time!!!")
+        exit()
 
 # Round four
 # IF OPTION TWO was chosen in Round three
@@ -478,10 +528,14 @@ def option_c():
     print("**** OVER ****")
     print("")
     restart = input("$ Do you wish to start again?  ").lower()
+
+    while restart != "yes" and restart != "no":
+        restart = input("$ Invalid Input Error: Try again  ")
+
     if restart == "yes":
         main()
-    else:
-        print("$ See you next time!")
+    elif restart == "no":
+        print("$ See you next time!!!")
         exit()
 
 
