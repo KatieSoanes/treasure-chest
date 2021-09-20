@@ -36,7 +36,10 @@ def intro():
 # ******** ROUND TWO ******** OF CHOICE FOR USER:
 # option1(): if option ONE was chosen in Round 1
 # Reminder continuation of: Climb down the mountain face by rope
+
+
 def option1():
+
     print("$ You have chosen to descend the mountain by rope")
     print("$ As you are half way down the rope begins to break")
     print("$ Oh no, the rope has snapped")
@@ -156,11 +159,11 @@ def down_1():
          fight for the treasure? """)
     print("""$ Option #2: Do you stake out the area and wait
          for the Oger to leave?""")
-
-    while round_one != "1" and round_one != "2":
-        round_one = input("$ Invalid Input Error: Try again  ")
-
     choice = input("$ Which will you choose? (1 or 2) ")
+
+    while choice != "1" and choice != "2":
+        choice = input("$ Invalid Input Error: Try again  ")
+
     if choice == "1":
         print()
         fight_1()
@@ -275,7 +278,10 @@ def turn_around_3():
 # ROUND TWO
 # Option3(): if option THREE was chosen in Round 1
 # Reminder continuation of: Walk by foot
+
+
 def option3():
+
     print("$ You have been walking by foot for almost one hour")
     print("$ You hear a rustling in the bushes")
     print("$ What do you do next?")
@@ -304,15 +310,15 @@ def option3():
 # Option 1:
 # Approach the bush to see what is there
 def option_1():
-        print("$ You are very brave approcahing the bush")
-        print("$ As you get closer, you see large paw prints in the ground")
-        print("$ An almighty ROAR makes the ground shake")
-        print("$ You see a Tiger jump out towards you...")
-        print("")
-        print("**** GAME ****")
-        print("**** OVER ****")
-        print("")
-        restart = input("$ Do you wish to start again?  ").lower()
+    print("$ You are very brave approcahing the bush")
+    print("$ As you get closer, you see large paw prints in the ground")
+    print("$ An almighty ROAR makes the ground shake")
+    print("$ You see a Tiger jump out towards you...")
+    print("")
+    print("**** GAME ****")
+    print("**** OVER ****")
+    print("")
+    restart = input("$ Do you wish to start again?  ").lower()
 
     while restart != "yes" and restart != "no":
         restart = input("$ Invalid Input Error: Try again  ")
@@ -343,7 +349,7 @@ def option_2():
     round_three = input("$ Which will you choose? (1, 2 or 3)  ")
 
     while round_three != "1" and round_three != "2" and round_three != "3":
-        round_one = input("$ Invalid Input Error: Try again  ")
+        round_three = input("$ Invalid Input Error: Try again  ")
 
     if round_three == "1":
         print()
