@@ -505,12 +505,19 @@ def main():
     print("$ The map leads us to Skull island which is known")
     print("$ to be a formidable dangerous place,")
     print("$ where not everyone returns...")
+    playGame()
+
+
+def playGame():
+
     print("So, do you have what it takes to find the treasure?")
     startGame = input("$ Yes/No: ").lower()
     if startGame == "no":
         main()
     elif startGame == "yes":
         intro()
+    else:
+        return playGame()
 
 
 main()
