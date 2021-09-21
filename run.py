@@ -582,7 +582,9 @@ def rock_game():
 
         if user_count >= 2:
             print("YOU DID IT!!!!!")
-            print("CONGRATULATIONS!!!! YOU WON TREASURE CHEST")
+            print("CONGRATULATIONS!!!! ")
+            print("YOU WON TREASURE CHEST")
+            print("We hope to see you soon for some adventures!")
             exit()
         elif computer_count >= 2:
             print("Oh NO! Bad luck... ")
