@@ -5,6 +5,7 @@ import time
 
 # ******* ROUND ONE ********
 # ******OF CHOICE FOR USER*****
+
 def intro():
     print("$ You are now on top of Skull island mountain")
     print("$ You need to get to the base")
@@ -537,9 +538,14 @@ def option_c():
         exit()
 
 
-# OPENING INTRODUCTORY TEXT
+# OPENING TEXT
 # Asking user if they would like to play the game
 def main():
+    """ Main() execution
+        Input: play game
+        yes = intro
+        no = exit
+    """ 
     print(" ")
     print(" ")
     print("     **********************")
@@ -570,9 +576,9 @@ def main():
         startGame = input("$ Invalid Input Error: Try again  ")
 
     if startGame == "no":
-        main()
+            main()
     elif startGame == "yes":
-        intro()
+            intro()
 
 
 main()
