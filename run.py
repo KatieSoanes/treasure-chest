@@ -62,7 +62,7 @@ def option1():
     print("**** GAME ****")
     print("**** OVER ****")
     print("")
-    restart = input("$ Do you wish to start again?  ").lower()
+    restart = input("$ Do you wish to start again? Yes/No  ").lower()
 
     while restart != "yes" and restart != "no":
         restart = input("$ Invalid Input Error: Try again  ")
@@ -70,7 +70,7 @@ def option1():
     if restart == "yes":
         main()
     elif restart == "no":
-        print("See you next time!!!")
+        print("$ See you next time!!!")
         exit()
 
 # Round one
@@ -123,7 +123,8 @@ def turn_1():
     print("**** GAME ****")
     print("**** OVER ****")
     print("")
-    restart = input("$ Do you wish to start again?  ").lower()
+    print("")
+    restart = input("$ Do you wish to start again? Yes/No  ").lower()
 
     while restart != "yes" and restart != "no":
         restart = input("$ Invalid Input Error: Try again  ")
@@ -245,7 +246,7 @@ def fight_1():
     elif restart == "no":
         print("$ See you next time!!!")
         exit()
-
+    
 # Round Four
 # Continuation of going down Waterfall
 # Stems from Raft in round one
@@ -270,22 +271,27 @@ def stakeout_2():
     guess_count = 0
     guess_limit = 3
     out_of_guesses = False
+    print("$ Guess the riddle:")
     print("$ If you’ve got me, you want to share me; ")
     print("$ if you share me, you haven’t kept me.")
     print("$ What am I?")
     print("$ HINT: I am 6 letters long")
     print("$ A _ _ _ _ _ _")
+
     while guess != secret_word and not (out_of_guesses):
         if guess_count < guess_limit:
             guess = input("Enter guess: ").lower()
             guess_count += 1
         else:
             out_of_guesses = True
+
     if out_of_guesses:
-        print("Out of Guesses, YOU LOSE!")
+            print("Out of Guesses, YOU LOSE!")
+            main()
+         
     else:
-        print("You win!")
-        rock_game()
+         print("You win! It's time for the next challenge...")
+         rock_game()
 
 # Round Four
 # Continuation of Jump
@@ -338,7 +344,7 @@ def turn_around_3():
     print("**** GAME ****")
     print("**** OVER ****")
     print("")
-    restart = input("$ Do you wish to start again?  ").lower()
+    restart = input("$ Do you wish to start again? Yes/No  ").lower()
 
     while restart != "yes" and restart != "no":
         restart = input("$ Invalid Input Error: Try again  ")
@@ -407,7 +413,7 @@ def option_1():
     print("**** GAME ****")
     print("**** OVER ****")
     print("")
-    restart = input("$ Do you wish to start again?  ").lower()
+    restart = input("$ Do you wish to start again? Yes/No ").lower()
 
     while restart != "yes" and restart != "no":
         restart = input("$ Invalid Input Error: Try again  ")
@@ -478,7 +484,7 @@ def option_3():
     print("**** GAME ****")
     print("**** OVER ****")
     print("")
-    restart = input("$ Do you wish to start again?  ").lower()
+    restart = input("$ Do you wish to start again? Yes/No  ").lower()
 
     while restart != "yes" and restart != "no":
         restart = input("$ Invalid Input Error: Try again  ")
@@ -502,10 +508,12 @@ def option_a():
         Function: Launch first Mini Game
         """
         print("$ You have made it to the cave safely")
-        print("$ Legend has it the treasure is located in this cave")
+        print("$ In the distance you spot a beam of light")
+        print("$ The treasure chest is in the cave!!!")
         print("$ But you must face some challenges to unlock it")
         print("$ Let the challenges commence...")
-        print("$ The first challenge is GUESS the riddle")
+        print("$ There are two challenges...")
+        print("$ The first challenge is GUESS the Riddle")
         print("$ Good luck!")
 
         # Mini games to unlock the treasure:
@@ -531,11 +539,12 @@ def option_a():
 
         if out_of_guesses:
             print("$ Out of Guesses, YOU LOSE!")
+            main()
         else:
             print("")
             print("$ You win! Time for your next challenge...")
             rock_game()
-
+        
 # Rock, Paper, Scissors Game
 # based on overstackflow code
 # https://stackoverflow.com/questions/13126510/python-rock-paper-scissors-score-counter/13126598#13126598
@@ -549,13 +558,14 @@ def rock_game():
     Determine Winner
     First to reach score of 2
     """
+    print("$ It has all come down to this, the final challenge")
     print("$ Instructions for Rock-Paper-Scissors : ")
     print()
     print("$ Rock crushes Scissors")
     print("$ Scissors cuts Paper")
     print("$ Paper covers Rock")
     print("$ First to make it to TWO points wins!!!")
-    print("$ If you draw with the computer, no scores are given")
+    print("$ If you and the computer draw, no scores are given")
     computer_count = 0
     user_count = 0
     while computer_count < 3 and user_count < 3:
@@ -585,7 +595,7 @@ def rock_game():
             print("YOU DID IT!!!!!")
             print("CONGRATULATIONS!!!! ")
             print("YOU WON TREASURE CHEST")
-            print("We hope to see you soon for another adventures!")
+            print("We hope to see you soon for another adventure!")
             exit()
         elif computer_count >= 2:
             print("Oh NO! Bad luck... ")
@@ -620,7 +630,7 @@ def option_b():
     print("**** GAME ****")
     print("**** OVER ****")
     print("")
-    restart = input("$ Do you wish to start again?  ").lower()
+    restart = input("$ Do you wish to start again? Yes/No  ").lower()
 
     while restart != "yes" and restart != "no":
         restart = input("$ Invalid Input Error: Try again  ")
@@ -653,7 +663,7 @@ def option_c():
     print("**** GAME ****")
     print("**** OVER ****")
     print("")
-    restart = input("$ Do you wish to start again?  ").lower()
+    restart = input("$ Do you wish to start again? Yes/No: ").lower()
 
     while restart != "yes" and restart != "no":
         restart = input("$ Invalid Input Error: Try again  ")
