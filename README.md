@@ -36,6 +36,9 @@ INPUT WHEN DEPLOYED SCREEN SHOT
 ### Deployment
 
 ### Credits
+*  Guess the Riddle: Building a guessing game youtube tutorial 
+   https://www.youtube.com/watch?v=B9ORjeQlPOA
+* Rock Paper Scissors: https://stackoverflow.com/questions/13126510/python-rock-paper-scissors-score-counter/13126598#13126598
 
 
 FLOW CHART
