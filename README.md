@@ -17,11 +17,29 @@ If the user enters the incorrect input the user will be prompted with an invalid
 * A riddle is presented, the user has three guesses to get it right if correct moves on to the next game. If incorrect, the game is over.
 2. Rock, Paper, Scissors (I did not want the game to be a static game) Gets user selection, gets computer selection and a winner is determined. The first player to reach the score of 2 wins. No points are given if the user and computer draw. 
 
+## FLOW CHART
+
+* This is the flow chart for my game
+* Colour coded:
+1. Purple Game Over
+2. Orange: Raft. Remaining paths stem from Raft
+3. Blue: Walk. Remaining paths stem from Walk
+
+<img width="931" alt="FLOW CHART ONE (1)" src="https://user-images.githubusercontent.com/84447603/133942265-cb435949-b3e7-4449-b6dd-9dc319315f96.png"> 
+
+<img width="842" alt="FLOW CHART TWO" src="https://user-images.githubusercontent.com/84447603/133942326-5646bd93-5589-4b2f-8dcc-937d19c8b11f.png">
+
+<img width="841" alt="FLOW CHART THREE" src="https://user-images.githubusercontent.com/84447603/133942357-ef2b1364-de72-4b09-990a-c504504c4ec7.png">
+
 ### Features
 * Input by user
 * Input validation and error checking if user inputs incorrectly, they are prompted with an Error display. Allowing the user to input correctly
 * Guess the Riddle: User has 3 chances to guess the missing word, then game is over.
 * Rock, Paper, Scissors: User plays against the computer: User Selection, Computer Selection and a winner is chosen. If user and computer draw no score is given. First to reach a score of 2 wins.
+
+## Imports
+* Import time, to add time delay to code execution aiding the story telling narrative.
+* Import random, used to randomise selection in Rock, Paper, Scissors. Allowing the user to go up against the computer, with a different response each time.
 
 
 ### Testing
@@ -37,6 +55,7 @@ If the user enters the incorrect input the user will be prompted with an invalid
 * When I input Rock, Paper, Scissors Game there was an error as this was running before the main() function with the intro to the game. This bug has now been solved as it was an indentation error to do with the control flow of the program. Solved.
 
 ### Remaining Bugs
+* There are no bugs in the game
 
 ### Deployment
 
@@ -46,9 +65,3 @@ If the user enters the incorrect input the user will be prompted with an invalid
 * Rock Paper Scissors: https://stackoverflow.com/questions/13126510/python-rock-paper-scissors-score-counter/13126598#13126598
 
 
-FLOW CHART
-<img width="931" alt="FLOW CHART ONE (1)" src="https://user-images.githubusercontent.com/84447603/133942265-cb435949-b3e7-4449-b6dd-9dc319315f96.png"> 
-
-<img width="842" alt="FLOW CHART TWO" src="https://user-images.githubusercontent.com/84447603/133942326-5646bd93-5589-4b2f-8dcc-937d19c8b11f.png">
-
-<img width="841" alt="FLOW CHART THREE" src="https://user-images.githubusercontent.com/84447603/133942357-ef2b1364-de72-4b09-990a-c504504c4ec7.png">
