@@ -1,6 +1,6 @@
 ### Treasure Chest
 
-Treasure Chest is an interactive text based adventure game. The aim of the game is for the user to choose their own adventure. Essentially, scenarios are described in a narrative and the user gets to input their choice out of the options given e.g. Option 1, 2 or 3. Depending on the option this leads to a new path, making the game different each time for players.
+Treasure Chest is an interactive text-based adventure game. The aim of the game is for the user to choose their adventure. Essentially, scenarios are described in a narrative and the user gets to input their choice out of the options given e.g. Option 1, 2, or 3. Depending on the option this leads to a new path, making the game different each time for players.
 
 HERE IS LIVE VERSION: 
 
@@ -11,18 +11,18 @@ HERE IS LIVE VERSION:
 2. Make a raft and descend by Mountain River
 3. Walk by foot
 * User then gets to input their answer, either: 1, 2 or 3
-If user enters the incorrect input the user will be prompted with a invalid Error input message and asked to input again.
-* When user reachs the treasure chest in order to open the treasure chest two mini games must be played and won by the user.
+If the user enters the incorrect input the user will be prompted with an invalid Error input message and asked to input again.
+* When the user reaches the treasure chest in order to open the treasure chest two mini-games must be played and won by the user.
 1.  Guess the Riddle
-* A riddle is presented, the user has three guesses to get it right, if correct moves on to the next game. If incorrect, the game is over.
-2. Rock, Paper, Scissors (did not want game to be static game) Gets user selection, gets computer selection and a winner is determined. The first player to reach the score of 2 wins. No points are given if the user and computer draw. 
+* A riddle is presented, the user has three guesses to get it right if correct moves on to the next game. If incorrect, the game is over.
+2. Rock, Paper, Scissors (I did not want the game to be a static game) Gets user selection, gets computer selection and a winner is determined. The first player to reach the score of 2 wins. No points are given if the user and computer draw. 
 
 ### Features
 INPUT WHEN DEPLOYED SCREEN SHOT
 
 
 ### Testing
-* I have manually tested the game by ensuring each path works and the mini games work. I have also tested in anticipation of incorrect user input that an error message appears and user must input correctly.
+* I have manually tested the game by ensuring each path works and the mini-games work. I have also tested in anticipation of incorrect user input that an error message appears and user must input correctly.
 * I have passed the code through PEP8 Validator testing and can confirm there are no problems.
 * Tested in my local terminal on git and also on Heroku terminal.
 
