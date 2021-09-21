@@ -7,6 +7,13 @@ import time
 # ******OF CHOICE FOR USER*****
 
 def intro():
+    """
+    Function intro()
+    Creates input for user
+    Option 1: Rope
+    Option 2: Raft
+    Option 3: Walk
+    """
     print("$ You are now on top of Skull island mountain")
     print("$ You need to get to the base")
     print("$ Which option do you take?")
@@ -32,16 +39,18 @@ def intro():
         print()
         option3()
 
-
-
-# ******** ROUND TWO ********
+# Round one
 # option1(): if option ONE was chosen in Round 1
-# Reminder continuation of: Climb down the mountain face by rope
-# Game OVER for user
-
+# Reminder continuation of: Rope
 
 def option1():
-
+    """
+    Function option1()
+    Game Over
+    play again?
+    yes: main()
+    no : exit()
+    """
     print("$ You have chosen to descend the mountain by rope")
     print("$ As you are half way down the rope begins to break")
     print("$ Oh no, the rope has snapped")
@@ -61,13 +70,17 @@ def option1():
         print("See you next time!!!")
         exit()
 
-# ROUND TWO
+# Round one
 # Option2(): if option TWO was chosen in Round 1
-# Reminder continuation of: Make a raft and descend down by Mountain River
-
+# Reminder continuation of: Raft
 
 def option2():
-
+    """
+    Function option2()
+    Creates input for user
+    Option 1: Left
+    Option 2: Right
+    """
     print("$ You are in the raft travelling downstream")
     print("$ Suddenly, the stream splits into two directions")
     print("$ Option #1: Do you go left? ")
@@ -84,11 +97,18 @@ def option2():
         print()
         turn_2()
 
+# ****** Round TWO *******
 # Left turn
-
+# Continuation of choosing Raft in round one
 
 def turn_1():
-
+    """
+    Function turn_1()
+    Game Over
+    play again?
+    yes : main()
+    no : exit()
+    """
     print("$ You decided to take the left turn")
     print("$ The current is getting faster and faster.....")
     print("$ You see a drop in the distance...")
@@ -109,12 +129,19 @@ def turn_1():
         print("$ See you next time!!!")
         exit()
 
-
+# Below Continuation of RAFT
+# Round two
 # Right turn
-
+# Continuation of choosing Raft in round one
 
 def turn_2():
-
+    """
+    Function turn_2()
+    Creates input for user
+    Option 1: Down
+    Option 2: Jump
+    Option 3: Turn
+    """
     print("$ You have taken the turn to the right")
     print("$ The current begins to pick up speed")
     print("$ All of a sudden you see in the distance...")
@@ -143,10 +170,15 @@ def turn_2():
 # ******Roud Three*******
 # Conintuation of Option 2 if turn RIGHT was chosen in round 2
 # Go down Waterfall
-
+# Stems from Raft in round one
 
 def down_1():
-
+    """
+    Function down_1()
+    Creates input for user
+    Option 1: Approach/fight
+    Option 2: Stake Out
+    """
     print("$ You are brave and decide to go down the Waterfall")
     print("$ As you hold on to the raft with a tight grip")
     print("$ The current begins to get faster and faster...")
@@ -173,9 +205,18 @@ def down_1():
         print()
         stakeout_2()
 
+# **** Round Four *****
+# Continuation of going down Waterfall
+# Stems from Raft in round one
 
 def fight_1():
-
+    """
+    Function fight_1()
+    Game Over
+    play again?
+    yes : main()
+    no : exit()
+    """
     print("As you prepare to approach the Oger")
     print("You take a step back and accidentally break a branch")
     print("The sound wakes the Oger")
@@ -197,9 +238,15 @@ def fight_1():
         print("$ See you next time!!!")
         exit()
 
+# Round Four
+# Continuation of going down Waterfall
+# Stems from Raft in round one
 
 def stakeout_2():
-
+    """
+    Function stakeout_2()
+    Guessing Game start
+    """
     print("$ You hide behind a bush and wait for the Oger to leave")
     print("""$ 3 hours later you feel the ground shake as the
         Oger makes his way towards the cave in the distance
@@ -231,11 +278,18 @@ def stakeout_2():
         print("You win!")
         rock_game()
 
-
-# Jump and grab hold of branch
+# Round Four
+# Continuation of Jump
+# Stems from Raft in round one
 
 def jump_2():
-
+    """
+    Function jump_2()
+    Game Over
+    play again?
+    yes : main()
+    no : exit()
+    """
     print("$ You reach up to grab the branch")
     print("$ You try your best to hold on, but you begin to lose grip")
     print("$ Your fingers begin to slip")
@@ -255,11 +309,18 @@ def jump_2():
         print("$ See you next time!!!")
         exit()
 
+# Round Four
 # Turn the raft around
-
+# Stems from Raft in round one
 
 def turn_around_3():
-
+    """
+    Function turn_around_3()
+    Game Over
+    play again?
+    yes : main()
+    no : exit()
+    """
     print("$ Unfortunately, the current is too strong")
     print("$ There is nothing you can do")
     print("$ You are being taken in the wrong direction")
@@ -277,13 +338,18 @@ def turn_around_3():
         print("$ See you next time!!!")
         exit()
 
-# ROUND TWO
+# BELOW CONTINUATION OF WALK 
+# **** ROUND TWO *****
 # Option3(): if option THREE was chosen in Round 1
 # Reminder continuation of: Walk by foot
-
-
 def option3():
-
+    """
+    Function option3()
+    Creates input for user
+    Option 1: Approach
+    Option 2: Hide
+    Option 3: Run
+    """
     print("$ You have been walking by foot for almost one hour")
     print("$ You hear a rustling in the bushes")
     print("$ What do you do next?")
@@ -306,12 +372,19 @@ def option3():
         option_3()
 
 
-# ******** ROUND THREE OF CHOICE FOR USER *********
-# IF OPTION THREE WAS CHOSEN BY USER IN ROUND TWO
-# (Reminder continuation of: WALK BY FOOT)
-# Option 1:
-# Approach the bush to see what is there
+# Round two
+# Continuation of Approcah bush
+# if option 1 chosen in round 2
+# Stems from Walk in round one
+
 def option_1():
+    """
+    Function option_1()
+    Game Over
+    play again?
+    yes : main()
+    no : exit()
+    """
     print("$ You are very brave approcahing the bush")
     print("$ As you get closer, you see large paw prints in the ground")
     print("$ An almighty ROAR makes the ground shake")
@@ -331,14 +404,20 @@ def option_1():
         print("$ See you next time!!!")
         exit()
 
-# IF OPTION THREE WAS CHOSEN BY USER IN ROUND TWO
-# (Reminder continuation of: WALK BY FOOT)
-# Option 2:
+# Round two
+# IF OPTION two WAS CHOSEN BY USER IN ROUND 2
 # Hide behind the nearest tree
+# Stems from Walk in round one
 
 
 def option_2():
-
+    """
+    Function option_2()
+    Creates input for user
+    Option 1: Cave
+    Option 2: Climb tree
+    Option 3: Throw Rock
+    """
     print("$ As you are hiding behind the tree,")
     print("the rustling sound gets louder")
     print("$ You hear a ROOOAAARRRRR")
@@ -363,12 +442,19 @@ def option_2():
         print()
         option_c()
 
-
+# Round two
 # IF OPTION THREE WAS CHOSEN BY USER IN ROUND TWO
-# (Reminder continutation of: WALK BY FOOT)
-# Option 3:
-# Run as fast as you can
+# Reminder continutation of: Run
+# Stems from Walk in round one
+
 def option_3():
+    """
+    Function option_3()
+    Game Over
+    play again?
+    yes : main()
+    no : exit()
+    """
     print("$ You take a deep breath")
     print("$ You start to make a run for it...")
     print("$ But, OH NO! You trip and fall to the ground..")
@@ -388,13 +474,18 @@ def option_3():
         print("$ See you next time!!!")
         exit()
 
-# ****** Round 4 ******
+# Round 3 
 # IF OPTION TWO was chosen in Round three
-# Reminder continuation of HIDE BEHIND TREE
-# In the corner of your eye you spot a cave
+# Reminder continuation of Cave
+# Stems from Walk in round one
+
+# Mini Games to unlock the treasure
+
 
 def option_a():
-
+        """
+        Function: Launch first Mini Game
+        """
         print("$ You have made it to the cave safely")
         print("$ Legend has it the treasure is located in this cave")
         print("$ But you must face some challenges to unlock it")
@@ -436,7 +527,13 @@ def option_a():
 
 
 def rock_game():
-
+    """
+    Function:
+    User Selection
+    Comp Selection
+    Determine Winner
+    First to reach score of 2
+    """
     print("$ Instructions for Rock-Paper-Scissors : ")
     print()
     print("$ Rock crushes Scissors")
@@ -468,7 +565,7 @@ def rock_game():
 
         print(f'Computer: {computer_count} - You: {user_count}')
         print()
-    # THIS CODE IS TO BE FIXED IF THERE IS A DRAW... TO KEEP PLAYING
+  
         if user_count >= 2:
             print("YOU DID IT!!!!!")
             print("CONGRATULATIONS!!!! YOU WON TREASURE CHEST")
@@ -482,14 +579,19 @@ def rock_game():
             print("")
             exit()
 
-# Round four
+# Round 3
 # IF OPTION TWO was chosen in Round three
-# Reminder continuation of HIDE BEHIND TREE
-# Climb the tree
-
+# Reminder continuation of Climb the tree
+# Stems from Walk in round one
 
 def option_b():
-
+    """
+    Function option_b()
+    Game Over
+    play again?
+    yes : main()
+    no : exit()
+    """
     print("$ You begin to climb the tree..")
     print("$ You decide to sit on a big branch near the top....")
     print("The Tiger is at the base of the tree")
@@ -513,12 +615,18 @@ def option_b():
 
 # Round four
 # IF OPTION TWO was chosen in Round three
-# Reminder continuation of HIDE BEHIND TREE
-# Throw rock to distract
+# Reminder continuation of Throw rock to distract
+# Stems from Walk in round one
 
 
 def option_c():
-
+    """
+    Function option_3()
+    Game Over
+    play again?
+    yes : main()
+    no : exit()
+    """
     print("$ You pick up the rock")
     print("$ You throw it as far as you can in the opposite direction")
     print("$ You make a run for it")
@@ -543,7 +651,7 @@ def option_c():
 # Asking user if they would like to play the game
 def main():
     """ Main() execution
-        Input: play game
+        Creates Input:
         yes = intro
         no = exit
     """ 
