@@ -34,9 +34,10 @@ def intro():
 
 
 
-# ******** ROUND TWO ******** OF CHOICE FOR USER:
+# ******** ROUND TWO ********
 # option1(): if option ONE was chosen in Round 1
 # Reminder continuation of: Climb down the mountain face by rope
+# Game OVER for user
 
 
 def option1():
