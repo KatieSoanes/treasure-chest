@@ -1,6 +1,6 @@
 ### Treasure Chest
 
-Treasure Chest is an interactive text-based adventure game. The aim of the game is for the user to choose their adventure. Essentially, scenarios are described in a narrative and the user gets to input their choice out of the options given e.g. Option 1, 2, or 3. Depending on the option this leads to a new path, making the game different each time for players.
+Treasure Chest is an interactive text-based adventure game. The aim of the game is for the user to choose their own adventure. Essentially, scenarios are described in a narrative and the user gets to input their choice out of the options given e.g. Option 1, 2, or 3. Depending on the option this leads to a new path, making the game different each time for players.
 
 HERE IS LIVE VERSION: 
 
@@ -18,7 +18,10 @@ If the user enters the incorrect input the user will be prompted with an invalid
 2. Rock, Paper, Scissors (I did not want the game to be a static game) Gets user selection, gets computer selection and a winner is determined. The first player to reach the score of 2 wins. No points are given if the user and computer draw. 
 
 ### Features
-INPUT WHEN DEPLOYED SCREEN SHOT
+* Input by user
+* Input validation and error checking if user inputs incorrectly, they are prompted with an Error display. Allowing the user to input correctly
+* Guess the Riddle: User has 3 chances to guess the missing word, then game is over.
+* Rock, Paper, Scissors: User plays against the computer: User Selection, Computer Selection and a winner is chosen. If user and computer draw no score is given. First to reach a score of 2 wins.
 
 
 ### Testing
