@@ -74,7 +74,7 @@ def option1():
 
 # Round one
 # Option2(): if option TWO was chosen in Round 1
-# Reminder continuation of: Raft
+# Reminder continuation of choosing Raft
 
 
 def option2():
