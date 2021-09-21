@@ -16,7 +16,7 @@ def intro():
     Option 2: Raft
     Option 3: Walk
     """
-    print("$ You are now on top of Skull island mountain")
+    print("$ You are now on top of Skull Island Mountain")
     time.sleep(2)
     print("$ You need to get to the base")
     time.sleep(2)
