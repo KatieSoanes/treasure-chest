@@ -6,6 +6,7 @@ import time
 # ******* ROUND ONE ********
 # ******OF CHOICE FOR USER*****
 
+
 def intro():
     """
     Function intro()
@@ -43,6 +44,7 @@ def intro():
 # option1(): if option ONE was chosen in Round 1
 # Reminder continuation of: Rope
 
+
 def option1():
     """
     Function option1()
@@ -74,6 +76,7 @@ def option1():
 # Option2(): if option TWO was chosen in Round 1
 # Reminder continuation of: Raft
 
+
 def option2():
     """
     Function option2()
@@ -100,6 +103,7 @@ def option2():
 # ****** Round TWO *******
 # Left turn
 # Continuation of choosing Raft in round one
+
 
 def turn_1():
     """
@@ -133,6 +137,7 @@ def turn_1():
 # Round two
 # Right turn
 # Continuation of choosing Raft in round one
+
 
 def turn_2():
     """
@@ -172,6 +177,7 @@ def turn_2():
 # Go down Waterfall
 # Stems from Raft in round one
 
+
 def down_1():
     """
     Function down_1()
@@ -209,6 +215,7 @@ def down_1():
 # Continuation of going down Waterfall
 # Stems from Raft in round one
 
+
 def fight_1():
     """
     Function fight_1()
@@ -241,6 +248,7 @@ def fight_1():
 # Round Four
 # Continuation of going down Waterfall
 # Stems from Raft in round one
+
 
 def stakeout_2():
     """
@@ -282,6 +290,7 @@ def stakeout_2():
 # Continuation of Jump
 # Stems from Raft in round one
 
+
 def jump_2():
     """
     Function jump_2()
@@ -313,6 +322,7 @@ def jump_2():
 # Turn the raft around
 # Stems from Raft in round one
 
+
 def turn_around_3():
     """
     Function turn_around_3()
@@ -338,10 +348,12 @@ def turn_around_3():
         print("$ See you next time!!!")
         exit()
 
-# BELOW CONTINUATION OF WALK 
+# BELOW CONTINUATION OF WALK
 # **** ROUND TWO *****
 # Option3(): if option THREE was chosen in Round 1
 # Reminder continuation of: Walk by foot
+
+
 def option3():
     """
     Function option3()
@@ -376,6 +388,7 @@ def option3():
 # Continuation of Approcah bush
 # if option 1 chosen in round 2
 # Stems from Walk in round one
+
 
 def option_1():
     """
@@ -447,6 +460,7 @@ def option_2():
 # Reminder continutation of: Run
 # Stems from Walk in round one
 
+
 def option_3():
     """
     Function option_3()
@@ -474,7 +488,7 @@ def option_3():
         print("$ See you next time!!!")
         exit()
 
-# Round 3 
+# Round 3
 # IF OPTION TWO was chosen in Round three
 # Reminder continuation of Cave
 # Stems from Walk in round one
@@ -565,7 +579,7 @@ def rock_game():
 
         print(f'Computer: {computer_count} - You: {user_count}')
         print()
-  
+
         if user_count >= 2:
             print("YOU DID IT!!!!!")
             print("CONGRATULATIONS!!!! YOU WON TREASURE CHEST")
@@ -583,6 +597,7 @@ def rock_game():
 # IF OPTION TWO was chosen in Round three
 # Reminder continuation of Climb the tree
 # Stems from Walk in round one
+
 
 def option_b():
     """
@@ -649,12 +664,14 @@ def option_c():
 
 # OPENING TEXT
 # Asking user if they would like to play the game
+
+
 def main():
     """ Main() execution
         Creates Input:
         yes = intro
         no = exit
-    """ 
+    """
     print(" ")
     print(" ")
     print("     **********************")
@@ -688,6 +705,4 @@ def main():
             main()
     elif startGame == "yes":
             intro()
-
-
 main()
