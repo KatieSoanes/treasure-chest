@@ -17,6 +17,27 @@ If user enters the incorrect input the user will be prompted with a invalid Erro
 * A riddle is presented, the user has three guesses to get it right, if correct moves on to the next game. If incorrect, the game is over.
 2. Rock, Paper, Scissors (did not want game to be static game) Gets user selection, gets computer selection and a winner is determined. The first player to reach the score of 2 wins. No points are given if the user and computer draw. 
 
+### Features
+INPUT WHEN DEPLOYED SCREEN SHOT
+
+
+### Testing
+* I have manually tested the game by ensuring each path works and the mini games work. I have also tested in anticipation of incorrect user input that an error message appears and user must input correctly.
+* I have passed the code through PEP8 Validator testing and can confirm there are no problems.
+* Tested in my local terminal on git and also on Heroku terminal.
+
+### PEP 8 Validator
+
+### Bugs
+* When I input Rock, Paper, Scissors Game there was an error as this was running before the main() function with the intro to the game. This bug has now been solved as it was an indentation error to do with the control flow of the program. Solved.
+
+### Remaining Bugs
+
+### Deployment
+
+### Credits
+
+
 FLOW CHART
 <img width="931" alt="FLOW CHART ONE (1)" src="https://user-images.githubusercontent.com/84447603/133942265-cb435949-b3e7-4449-b6dd-9dc319315f96.png"> 
 
