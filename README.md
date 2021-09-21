@@ -10,7 +10,7 @@ HERE IS LIVE VERSION:
 1. Climb down the mountain face by rope
 2. Make a raft and descend by Mountain River
 3. Walk by foot
-* User then gets to input their answer, either: 1, 2 or 3
+* User then gets to input their answer, either: 1, 2 or 3.
 If the user enters the incorrect input the user will be prompted with an invalid Error input message and asked to input again.
 * When the user reaches the treasure chest in order to open the treasure chest two mini-games must be played and won by the user.
 1.  Guess the Riddle
@@ -30,6 +30,8 @@ If the user enters the incorrect input the user will be prompted with an invalid
 * Tested in my local terminal on git and also on Heroku terminal.
 
 ### PEP 8 Validator
+
+<img width="1026" alt="Screenshot 2021-09-22 at 00 08 08" src="https://user-images.githubusercontent.com/84447603/134259300-e22bc421-ad0b-40f3-a0c8-00324fbc7827.png">
 
 ### Bugs
 * When I input Rock, Paper, Scissors Game there was an error as this was running before the main() function with the intro to the game. This bug has now been solved as it was an indentation error to do with the control flow of the program. Solved.
