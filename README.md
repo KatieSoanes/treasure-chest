@@ -1,5 +1,22 @@
 ### Treasure Chest
 
+Treasure Chest is an interactive text based adventure game. The aim of the game is for the user to choose their own adventure. Essentially, scenarios are described in a narrative and the user gets to input their choice out of the options given e.g. Option 1, 2 or 3. Depending on the option this leads to a new path, making the game different each time for players.
+
+HERE IS LIVE VERSION: 
+
+### How to Play
+
+* User is given a scenario for example: You are on top of Skull Mountain and you need to get to the base. Do you 
+1. Climb down the mountain face by rope
+2. Make a raft and descend by Mountain River
+3. Walk by foot
+* User then gets to input their answer, either: 1, 2 or 3
+If user enters the incorrect input the user will be prompted with a invalid Error input message and asked to input again.
+* When user reachs the treasure chest in order to open the treasure chest two mini games must be played and won by the user.
+1.  Guess the Riddle
+* A riddle is presented, the user has three guesses to get it right, if correct moves on to the next game. If incorrect, the game is over.
+2. Rock, Paper, Scissors (did not want game to be static game) Gets user selection, gets computer selection and a winner is determined. The first player to reach the score of 2 wins. No points are given if the user and computer draw. 
+
 FLOW CHART
 <img width="931" alt="FLOW CHART ONE (1)" src="https://user-images.githubusercontent.com/84447603/133942265-cb435949-b3e7-4449-b6dd-9dc319315f96.png"> 
 
