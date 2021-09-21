@@ -3,7 +3,6 @@ import random
 import time
 
 
-
 # ******* ROUND ONE ********
 # ******OF CHOICE FOR USER*****
 
@@ -280,7 +279,7 @@ def fight_1():
     elif restart == "no":
         print("$ See you next time!!!")
         exit()
-    
+
 # Round Four
 # Continuation of going down Waterfall
 # Stems from Raft in round one
@@ -325,12 +324,11 @@ def stakeout_2():
             out_of_guesses = True
 
     if out_of_guesses:
-            print("Out of Guesses, YOU LOSE!")
-            main()
-         
+        print("Out of Guesses, YOU LOSE!")
+        main()
     else:
-         print("You win! It's time for the next challenge...")
-         rock_game()
+        print("You win! It's time for the next challenge...")
+        rock_game()
 
 # Round Four
 # Continuation of Jump
@@ -607,7 +605,7 @@ def option_a():
             print("")
             print("$ You win! Time for your next challenge...")
             rock_game()
-        
+
 # Rock, Paper, Scissors Game
 # based on overstackflow code
 # https://stackoverflow.com/questions/13126510/python-rock-paper-scissors-score-counter/13126598#13126598
