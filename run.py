@@ -17,12 +17,15 @@ def intro():
     Option 3: Walk
     """
     print("$ You are now on top of Skull island mountain")
+    time.sleep(2)
     print("$ You need to get to the base")
+    time.sleep(2)
     print("$ Which option do you take?")
+    time.sleep(2)
     print("""$ Option #1: Climb down the mountain face by rope,
                 be careful, the rope appears old and brittle""")
     print("""$ Option #2: Make a raft and descend by Mountain River, but you don't
-                know how shallow and rocky it is"
+                know how shallow and rocky it is
                 """)
     print("""$ Option #3: Walk by foot, the slowest option
                 and you don't know what challenges you could face""")
@@ -55,8 +58,11 @@ def option1():
     no : exit()
     """
     print("$ You have chosen to descend the mountain by rope")
+    time.sleep(2)
     print("$ As you are half way down the rope begins to break")
+    time.sleep(2)
     print("$ Oh no, the rope has snapped")
+    time.sleep(2)
     print("$ You shouldn't have gone this way...")
     print("")
     print("**** GAME ****")
@@ -86,9 +92,13 @@ def option2():
     Option 2: Right
     """
     print("$ You are in the raft travelling downstream")
+    time.sleep(2)
     print("$ Suddenly, the stream splits into two directions")
+    time.sleep(2)
     print("$ Option #1: Do you go left? ")
+    time.sleep(2)
     print("$ Option #2: Do you go right? ")
+    time.sleep(2)
     direction = input("$ Which will you choose? (1 or 2) ")
 
     while direction != "1" and direction != "2":
@@ -115,10 +125,15 @@ def turn_1():
     no : exit()
     """
     print("$ You decided to take the left turn")
+    time.sleep(2)
     print("$ The current is getting faster and faster.....")
+    time.sleep(2)
     print("$ You see a drop in the distance...")
+    time.sleep(2)
     print("$ At the bottom of the drop there are...")
+    time.sleep(2)
     print("$ tonnes of large sharp rocks!!!")
+    time.sleep(2)
     print("$ OH NO!!!! you shouldn't have gone this way")
     print("**** GAME ****")
     print("**** OVER ****")
@@ -150,10 +165,15 @@ def turn_2():
     Option 3: Turn
     """
     print("$ You have taken the turn to the right")
+    time.sleep(2)
     print("$ The current begins to pick up speed")
+    time.sleep(2)
     print("$ All of a sudden you see in the distance...")
+    time.sleep(2)
     print("$ a Waterfall drop...")
+    time.sleep(2)
     print("$ You also see a branch hanging over the water")
+    time.sleep(2)
     print("$ Option #1:Take your chances and go down the Waterfall ")
     print("""Option #2: Jump to grab hold of the branch
          when you get close enough """)
@@ -188,15 +208,24 @@ def down_1():
     Option 2: Stake Out
     """
     print("$ You are brave and decide to go down the Waterfall")
+    time.sleep(2)
     print("$ As you hold on to the raft with a tight grip")
+    time.sleep(2)
     print("$ The current begins to get faster and faster...")
+    time.sleep(2)
     print("$ You approach the edge")
+    time.sleep(2)
     print("$ BOOM!!!")
+    time.sleep(2)
     print("$ You are under the water at the bottom")
+    time.sleep(2)
     print("$ You swim to the surface and take a gasp for air")
+    time.sleep(2)
     print("$ You manage to swim to the land")
+    time.sleep(2)
     print("$ You see a giant Oger in the distance")
-    print("$ You realise he is asleep beside the treasure chest")
+    time.sleep(2)
+    print("$ You realise he is asleep beside the treasure chest...")
     print("""$ Option #1: Do you approach the Oger and
          fight for the treasure? """)
     print("""$ Option #2: Do you stake out the area and wait
@@ -227,10 +256,15 @@ def fight_1():
     no : exit()
     """
     print("As you prepare to approach the Oger")
+    time.sleep(2)
     print("You take a step back and accidentally break a branch")
+    time.sleep(2)
     print("The sound wakes the Oger")
+    time.sleep(2)
     print("The Oger lets out a loud grunt")
+    time.sleep(2)
     print("The Ogers footsteps make the ground shake")
+    time.sleep(2)
     print("You are spotted")
     print("The Oger runs towards you with anger on his face")
     print("**** GAME ****")
@@ -258,11 +292,15 @@ def stakeout_2():
     Guessing Game start
     """
     print("$ You hide behind a bush and wait for the Oger to leave")
+    time.sleep(2)
     print("""$ 3 hours later you feel the ground shake as the
         Oger makes his way towards the cave in the distance
         """)
+    time.sleep(2)
     print("$ Once you can no longer see the Oger in the distance")
+    time.sleep(2)
     print("$ You run to the treasure chest")
+    time.sleep(2)
     print("$ Congratulations, you found the treaure chest...")
     print("$ In order to open the chest you must first face two challenges")
     print("$ Let the challenges commence...")
@@ -272,6 +310,7 @@ def stakeout_2():
     guess_limit = 3
     out_of_guesses = False
     print("$ Guess the riddle:")
+    time.sleep(2)
     print("$ If you’ve got me, you want to share me; ")
     print("$ if you share me, you haven’t kept me.")
     print("$ What am I?")
@@ -307,9 +346,13 @@ def jump_2():
     no : exit()
     """
     print("$ You reach up to grab the branch")
+    time.sleep(2)
     print("$ You try your best to hold on, but you begin to lose grip")
+    time.sleep(2)
     print("$ Your fingers begin to slip")
+    time.sleep(2)
     print("$ You can't hold on for much longer")
+    time.sleep(2)
     print("$ You fall into the current and BANG you hit a rock")
     print("**** GAME ****")
     print("**** OVER ****")
@@ -339,7 +382,9 @@ def turn_around_3():
     no : exit()
     """
     print("$ Unfortunately, the current is too strong")
+    time.sleep(2)
     print("$ There is nothing you can do")
+    time.sleep(2)
     print("$ You are being taken in the wrong direction")
     print("**** GAME ****")
     print("**** OVER ****")
@@ -370,8 +415,11 @@ def option3():
     Option 3: Run
     """
     print("$ You have been walking by foot for almost one hour")
+    time.sleep(2)
     print("$ You hear a rustling in the bushes")
+    time.sleep(2)
     print("$ What do you do next?")
+    time.sleep(2)
     print("$ Option #1: Approach the bush to see what is there")
     print("$ Option #2: Hide behind the nearest tree")
     print("$ Option #3: Run as fast as you can")
@@ -406,8 +454,11 @@ def option_1():
     no : exit()
     """
     print("$ You are very brave approcahing the bush")
+    time.sleep(2)
     print("$ As you get closer, you see large paw prints in the ground")
+    time.sleep(2)
     print("$ An almighty ROAR makes the ground shake")
+    time.sleep(2)
     print("$ You see a Tiger jump out towards you...")
     print("")
     print("**** GAME ****")
@@ -439,9 +490,13 @@ def option_2():
     Option 3: Throw Rock
     """
     print("$ As you are hiding behind the tree,")
+    time.sleep(2)
     print("the rustling sound gets louder")
+    time.sleep(2)
     print("$ You hear a ROOOAAARRRRR")
+    time.sleep(2)
     print("$ What do you do next?")
+    time.sleep(2)
     print("""$ Option #1: In the corner of your eye you spot a cave,
           you run towards the cave to take shelter""")
     print("$ Option #2: Climb the tree")
@@ -477,8 +532,11 @@ def option_3():
     no : exit()
     """
     print("$ You take a deep breath")
+    time.sleep(2)
     print("$ You start to make a run for it...")
+    time.sleep(2)
     print("$ But, OH NO! You trip and fall to the ground..")
+    time.sleep(2)
     print("$ The Tiger approaches....")
     print("")
     print("**** GAME ****")
@@ -508,12 +566,17 @@ def option_a():
         Function: Launch first Mini Game
         """
         print("$ You have made it to the cave safely")
+        time.sleep(2)
         print("$ In the distance you spot a beam of light")
+        time.sleep(2)
         print("$ The treasure chest is in the cave!!!")
+        time.sleep(2)
         print("$ But you must face some challenges to unlock it")
+        time.sleep(2)
         print("$ Let the challenges commence...")
         print("$ There are two challenges...")
         print("$ The first challenge is GUESS the Riddle")
+        time.sleep(2)
         print("$ Good luck!")
 
         # Mini games to unlock the treasure:
@@ -559,6 +622,7 @@ def rock_game():
     First to reach score of 2
     """
     print("$ It has all come down to this, the final challenge")
+    time.sleep(2)
     print("$ Instructions for Rock-Paper-Scissors : ")
     print()
     print("$ Rock crushes Scissors")
@@ -594,6 +658,7 @@ def rock_game():
         if user_count >= 2:
             print("YOU DID IT!!!!!")
             print("CONGRATULATIONS!!!! ")
+            time.sleep(2)
             print("YOU WON TREASURE CHEST")
             print("We hope to see you soon for another adventure!")
             exit()
@@ -621,9 +686,13 @@ def option_b():
     no : exit()
     """
     print("$ You begin to climb the tree..")
+    time.sleep(2)
     print("$ You decide to sit on a big branch near the top....")
+    time.sleep(2)
     print("The Tiger is at the base of the tree")
+    time.sleep(2)
     print("$ Oh no!...")
+    time.sleep(2)
     print("$ you feel it begin to break")
     print("$ All of a sudden the branch snaps and you fall towards the Tiger")
     print("")
@@ -656,8 +725,11 @@ def option_c():
     no : exit()
     """
     print("$ You pick up the rock")
+    time.sleep(2)
     print("$ You throw it as far as you can in the opposite direction")
+    time.sleep(2)
     print("$ You make a run for it")
+    time.sleep(2)
     print("$ But OH NO! The Tiger spots you and chases after you")
     print("")
     print("**** GAME ****")
@@ -696,18 +768,29 @@ def main():
     print(" ")
     name = input("Enter your name ")
     print("$ Hello " + name + " welcome to TREASURE CHEST")
+    time.sleep(2)
     print("$ Treasure chest is an interactive adventure game!")
+    time.sleep(2)
     print("$ The game where YOU get to choose your own destiny...")
+    time.sleep(1)
     print("$ To play the game you must type in your answer")
+    time.sleep(1)
     print("$ followed by the enter key on your keyboard.")
+    time.sleep(1)
     print("$ Before we begin, let me tell you a story...")
+    time.sleep(2)
     print("$ Sometime long ago I stumbled upon a treasure map,")
+    time.sleep(2)
     print("$ belonging to my great-great-grandfather...")
+    time.sleep(2)
     print("$ The treasure contains gold, silver and jewels....")
     print("  worth Millions!!")
     print("$ The map leads us to Skull island which is known")
+    time.sleep(2)
     print("$ to be a formidable dangerous place,")
+    time.sleep(2)
     print("$ where not everyone returns...")
+    time.sleep(2)
     print("So, do you have what it takes to find the treasure?")
     startGame = input("$ Yes/No: ").lower()
 
