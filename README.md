@@ -2,7 +2,7 @@
 
 Treasure Chest is an interactive text-based adventure game. The aim of the game is for the user to choose their own adventure. Essentially, scenarios are described in a narrative and the user gets to input their choice out of the options given e.g. Option 1, 2, or 3. Depending on the option this leads to a new path, making the game different each time for players.
 
-HERE IS LIVE VERSION: 
+### Link to live version: 
 
 ### How to Play
 
