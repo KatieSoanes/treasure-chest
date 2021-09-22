@@ -67,8 +67,8 @@ def option1():
     print("**** GAME ****")
     print("**** OVER ****")
     print("")
-    restart = input("$ Do you wish to start again? ").lower()
-    print("Yes/No")
+    restart = input("$ Do you wish to start again? Yes/No ").lower()
+    print("$ Yes/No")
 
     while restart != "yes" and restart != "no":
         restart = input("$ Invalid Input Error: Try again  ")
@@ -139,8 +139,8 @@ def turn_1():
     print("**** OVER ****")
     print("")
     print("")
-    restart = input("$ Do you wish to start again? ").lower()
-    print("Yes/No")
+    restart = input("$ Do you wish to start again? Yes/No ").lower()
+    print("$ Yes/No")
 
     while restart != "yes" and restart != "no":
         restart = input("$ Invalid Input Error: Try again  ")
@@ -271,8 +271,8 @@ def fight_1():
     print("**** GAME ****")
     print("**** OVER ****")
     print("")
-    restart = input("$ Do you wish to start again? ").lower()
-    print("Yes/No")
+    restart = input("$ Do you wish to start again? Yes/No ").lower()
+    print("$ Yes/No")
 
     while restart != "yes" and restart != "no":
         restart = input("$ Invalid Input Error: Try again  ")
@@ -358,8 +358,8 @@ def jump_2():
     print("**** GAME ****")
     print("**** OVER ****")
     print("")
-    restart = input("$ Do you wish to start again? ").lower()
-    print("Yes/No")
+    restart = input("$ Do you wish to start again? Yes/No ").lower()
+    print("$ Yes/No")
 
     while restart != "yes" and restart != "no":
         restart = input("$ Invalid Input Error: Try again  ")
@@ -391,8 +391,8 @@ def turn_around_3():
     print("**** GAME ****")
     print("**** OVER ****")
     print("")
-    restart = input("$ Do you wish to start again? ").lower()
-    print("Yes/No")
+    restart = input("$ Do you wish to start again? Yes/No ").lower()
+    print("$ Yes/No")
 
     while restart != "yes" and restart != "no":
         restart = input("$ Invalid Input Error: Try again  ")
@@ -467,8 +467,8 @@ def option_1():
     print("**** GAME ****")
     print("**** OVER ****")
     print("")
-    restart = input("$ Do you wish to start again? ").lower()
-    print("Yes/No")
+    restart = input("$ Do you wish to start again? Yes/No ").lower()
+    print("$ Yes/No")
 
     while restart != "yes" and restart != "no":
         restart = input("$ Invalid Input Error: Try again  ")
@@ -546,8 +546,8 @@ def option_3():
     print("**** GAME ****")
     print("**** OVER ****")
     print("")
-    restart = input("$ Do you wish to start again? ").lower()
-    print("Yes/No")
+    restart = input("$ Do you wish to start again? Yes/No ").lower()
+    print("$ Yes/No")
 
     while restart != "yes" and restart != "no":
         restart = input("$ Invalid Input Error: Try again  ")
@@ -704,8 +704,8 @@ def option_b():
     print("**** GAME ****")
     print("**** OVER ****")
     print("")
-    restart = input("$ Do you wish to start again? ").lower()
-    print("Yes/No")
+    restart = input("$ Do you wish to start again? Yes/No ").lower()
+    print("$ Yes/No")
 
     while restart != "yes" and restart != "no":
         restart = input("$ Invalid Input Error: Try again  ")
@@ -741,8 +741,8 @@ def option_c():
     print("**** GAME ****")
     print("**** OVER ****")
     print("")
-    restart = input("$ Do you wish to start again? ").lower()
-    print("Yes/No")
+    restart = input("$ Do you wish to start again? Yes/No ").lower()
+    print("$ Yes/No")
 
     while restart != "yes" and restart != "no":
         restart = input("$ Invalid Input Error: Try again  ")
@@ -773,7 +773,7 @@ def main():
     print("     **********************")
     print(" ")
     print(" ")
-    name = input("Enter your name ")
+    name = input("$ Enter your name ")
     print("$ Hello " + name + " welcome to TREASURE CHEST")
     time.sleep(2)
     print("$ Treasure chest is an interactive adventure game!")
