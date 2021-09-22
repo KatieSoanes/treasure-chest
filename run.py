@@ -31,7 +31,7 @@ def intro():
     round_one = input("$ Which will you choose? (1, 2 or 3) ")
 
     while round_one != "1" and round_one != "2" and round_one != "3":
-        round_one = input("$ Invalid Input Error: Try again  ")
+        round_one = input("$ Invalid Input Error: Try again ")
 
     if round_one == "1":
         print()
@@ -70,7 +70,7 @@ def option1():
     restart = input("$ Do you wish to start again? Yes/No ").lower()
 
     while restart != "yes" and restart != "no":
-        restart = input("$ Invalid Input Error: Try again  ")
+        restart = input("$ Invalid Input Error: Try again ").lower()
 
     if restart == "yes":
         main()
@@ -101,7 +101,7 @@ def option2():
     direction = input("$ Which will you choose? (1 or 2) ")
 
     while direction != "1" and direction != "2":
-        direction = input("$ Invalid Input Error: Try again  ")
+        direction = input("$ Invalid Input Error: Try again ")
 
     if direction == "1":
         print()
@@ -141,7 +141,7 @@ def turn_1():
     restart = input("$ Do you wish to start again? Yes/No ").lower()
 
     while restart != "yes" and restart != "no":
-        restart = input("$ Invalid Input Error: Try again  ")
+        restart = input("$ Invalid Input Error: Try again ").lower()
 
     if restart == "yes":
         main()
@@ -181,7 +181,7 @@ def turn_2():
     choice = input("$ Which will you choose? (1, 2 or 3) ")
 
     while choice != "1" and choice != "2" and choice != "3":
-        choice = input("$ Invalid Input Error: Try again  ")
+        choice = input("$ Invalid Input Error: Try again ")
 
     if choice == "1":
         print()
@@ -232,7 +232,7 @@ def down_1():
     choice = input("$ Which will you choose? (1 or 2) ")
 
     while choice != "1" and choice != "2":
-        choice = input("$ Invalid Input Error: Try again  ")
+        choice = input("$ Invalid Input Error: Try again ")
 
     if choice == "1":
         print()
@@ -272,7 +272,7 @@ def fight_1():
     restart = input("$ Do you wish to start again? Yes/No ").lower()
 
     while restart != "yes" and restart != "no":
-        restart = input("$ Invalid Input Error: Try again  ")
+        restart = input("$ Invalid Input Error: Try again ").lower()
 
     if restart == "yes":
         main()
@@ -358,7 +358,7 @@ def jump_2():
     restart = input("$ Do you wish to start again? Yes/No ").lower()
 
     while restart != "yes" and restart != "no":
-        restart = input("$ Invalid Input Error: Try again  ")
+        restart = input("$ Invalid Input Error: Try again ").lower()
 
     if restart == "yes":
         main()
@@ -390,7 +390,7 @@ def turn_around_3():
     restart = input("$ Do you wish to start again? Yes/No ").lower()
 
     while restart != "yes" and restart != "no":
-        restart = input("$ Invalid Input Error: Try again  ")
+        restart = input("$ Invalid Input Error: Try again ").lower()
 
     if restart == "yes":
         main()
@@ -424,7 +424,7 @@ def option3():
     round_two = input("$ Which will you choose? (1, 2 or 3) ")
 
     while round_two != "1" and round_two != "2" and round_two != "3":
-        round_two = input("$ Invalid Input Error: Try again  ")
+        round_two = input("$ Invalid Input Error: Try again ")
 
     if round_two == "1":
         print()
@@ -465,7 +465,7 @@ def option_1():
     restart = input("$ Do you wish to start again? Yes/No ").lower()
 
     while restart != "yes" and restart != "no":
-        restart = input("$ Invalid Input Error: Try again  ")
+        restart = input("$ Invalid Input Error: Try again ").lower()
 
     if restart == "yes":
         main()
@@ -503,7 +503,7 @@ def option_2():
     round_three = input("$ Which will you choose? (1, 2 or 3)  ")
 
     while round_three != "1" and round_three != "2" and round_three != "3":
-        round_three = input("$ Invalid Input Error: Try again  ")
+        round_three = input("$ Invalid Input Error: Try again ")
 
     if round_three == "1":
         print()
@@ -543,7 +543,7 @@ def option_3():
     restart = input("$ Do you wish to start again? Yes/No ").lower()
 
     while restart != "yes" and restart != "no":
-        restart = input("$ Invalid Input Error: Try again  ")
+        restart = input("$ Invalid Input Error: Try again ").lower()
 
     if restart == "yes":
         main()
@@ -700,7 +700,7 @@ def option_b():
     restart = input("$ Do you wish to start again? Yes/No ").lower()
 
     while restart != "yes" and restart != "no":
-        restart = input("$ Invalid Input Error: Try again  ")
+        restart = input("$ Invalid Input Error: Try again ").lower()
 
     if restart == "yes":
         main()
@@ -736,7 +736,7 @@ def option_c():
     restart = input("$ Do you wish to start again? Yes/No ").lower()
 
     while restart != "yes" and restart != "no":
-        restart = input("$ Invalid Input Error: Try again  ")
+        restart = input("$ Invalid Input Error: Try again ").lower()
 
     if restart == "yes":
         main()
@@ -793,7 +793,7 @@ def main():
     startGame = input("$ Yes/No: ").lower()
 
     while startGame != "yes" and startGame != "no":
-        startGame = input("$ Invalid Input Error: Try again  ")
+        startGame = input("$ Invalid Input Error: Try again ").lower()
 
     if startGame == "no":
             main()
