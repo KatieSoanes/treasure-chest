@@ -1,6 +1,6 @@
 ### Treasure Chest
 
-### Link to live version: https://treasure-chest-game.herokuapp.com/ 
+### Link to live version: https://treasure-chest-game.herokuapp.com/  
 
 
 <img width="741" alt="Screenshot 2021-09-22 at 02 06 49" src="https://user-images.githubusercontent.com/84447603/134267634-ba89b0b8-7430-4f11-b292-a0f61d761eb7.png">
@@ -25,6 +25,14 @@ If the user enters the incorrect input the user will be prompted with an invalid
 1.  Guess the Riddle
 * A riddle is presented, the user has three guesses to get it right. If correct moves on to the next game. If incorrect, the game is over.
 2. Rock, Paper, Scissors (Reason for this game: I did not want the game to be a static game) Gets user selection, gets computer selection and a winner is determined. The first player to reach the score of 2 wins. No points are given if the user and computer draw. 
+
+# Reason for implemented code
+
+* if and elif statements which allow the user to take on different paths based on the input the player provides. Options are provided for the user. 
+* time module to give delays for extra effects in the game, aids the narrative. 
+* input() and print() methods to take player inputs and print the story.
+* while loop for extra effects throughout.
+* random module to randomise the computers selection in Rock, Paper, Scissors. This causes variety in the game, with different outputs each time. 
 
 ## FLOW CHART
 
