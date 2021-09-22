@@ -85,5 +85,8 @@ If the user enters the incorrect input the user will be prompted with an invalid
 *  Guess the Riddle: Building a guessing game youtube tutorial 
    https://www.youtube.com/watch?v=B9ORjeQlPOA
 * Rock Paper Scissors: https://stackoverflow.com/questions/13126510/python-rock-paper-scissors-score-counter/13126598#13126598
+* To find out how an adventure game works: https://thecodingpie.com/post/make-your-own-text-based-adventure-game-in-python3 
+* Heroku to deploy the app https://dashboard.heroku.com/apps
+* Github: Repository hosting service
 
 
