@@ -68,7 +68,6 @@ def option1():
     print("**** OVER ****")
     print("")
     restart = input("$ Do you wish to start again? Yes/No ").lower()
-    print("$ Yes/No")
 
     while restart != "yes" and restart != "no":
         restart = input("$ Invalid Input Error: Try again  ")
@@ -140,7 +139,6 @@ def turn_1():
     print("")
     print("")
     restart = input("$ Do you wish to start again? Yes/No ").lower()
-    print("$ Yes/No")
 
     while restart != "yes" and restart != "no":
         restart = input("$ Invalid Input Error: Try again  ")
@@ -272,7 +270,6 @@ def fight_1():
     print("**** OVER ****")
     print("")
     restart = input("$ Do you wish to start again? Yes/No ").lower()
-    print("$ Yes/No")
 
     while restart != "yes" and restart != "no":
         restart = input("$ Invalid Input Error: Try again  ")
@@ -359,7 +356,6 @@ def jump_2():
     print("**** OVER ****")
     print("")
     restart = input("$ Do you wish to start again? Yes/No ").lower()
-    print("$ Yes/No")
 
     while restart != "yes" and restart != "no":
         restart = input("$ Invalid Input Error: Try again  ")
@@ -392,7 +388,6 @@ def turn_around_3():
     print("**** OVER ****")
     print("")
     restart = input("$ Do you wish to start again? Yes/No ").lower()
-    print("$ Yes/No")
 
     while restart != "yes" and restart != "no":
         restart = input("$ Invalid Input Error: Try again  ")
@@ -468,7 +463,6 @@ def option_1():
     print("**** OVER ****")
     print("")
     restart = input("$ Do you wish to start again? Yes/No ").lower()
-    print("$ Yes/No")
 
     while restart != "yes" and restart != "no":
         restart = input("$ Invalid Input Error: Try again  ")
@@ -547,7 +541,6 @@ def option_3():
     print("**** OVER ****")
     print("")
     restart = input("$ Do you wish to start again? Yes/No ").lower()
-    print("$ Yes/No")
 
     while restart != "yes" and restart != "no":
         restart = input("$ Invalid Input Error: Try again  ")
@@ -705,7 +698,6 @@ def option_b():
     print("**** OVER ****")
     print("")
     restart = input("$ Do you wish to start again? Yes/No ").lower()
-    print("$ Yes/No")
 
     while restart != "yes" and restart != "no":
         restart = input("$ Invalid Input Error: Try again  ")
@@ -742,7 +734,6 @@ def option_c():
     print("**** OVER ****")
     print("")
     restart = input("$ Do you wish to start again? Yes/No ").lower()
-    print("$ Yes/No")
 
     while restart != "yes" and restart != "no":
         restart = input("$ Invalid Input Error: Try again  ")
